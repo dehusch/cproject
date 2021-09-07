@@ -1,3 +1,5 @@
+//For compile a program use cc
+//cc -o execname filename.c
 #include <stdio.h>
 #include <stdlib.h>
 
