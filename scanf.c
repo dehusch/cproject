@@ -13,6 +13,11 @@ printf("Digite o valor da altura: "); scanf("%i", &altura);
 
 // % caractere especial, que inicia um especificador de conversão
 // & operador de endereço
+// * Multiplica
+// / Divide
+// + Soma
+// - Subtrai
+// % resto da divisão
 
 printf("O valor da base é: %i\n", base);
 printf("O valor da altura é: %i\n", altura);
