@@ -5,6 +5,8 @@
 
 int main(int argc, char *argv[])
 {
-    puts("Hello, World!");
+    puts("Bem vindo");
+    puts("\t a linguagem C!");
     return 0;
 }
+// \t insere uma tabulação no texto
