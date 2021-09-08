@@ -11,6 +11,9 @@ int area;
 printf("Digite o valor da base: "); scanf("%i", &base);
 printf("Digite o valor da altura: "); scanf("%i", &altura);
 
+// % caractere especial, que inicia um especificador de conversão
+// & operador de endereço
+
 printf("O valor da base é: %i\n", base);
 printf("O valor da altura é: %i\n", altura);
 
