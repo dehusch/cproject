@@ -5,7 +5,26 @@ int main() {
     int num2;
 
     printf("Entre com dois numeros inteiros e\n");
-    printf("farei as relações entre eles");
+    printf("farei as relações entre eles: ");
 
-    scanf("%d%d")
+    scanf("%d%d", &num1, &num2);
+
+    if ( num1 == num2 ){
+        printf("%d é igual a %d\n", num1, num2);
+    }
+    if ( num1 != num2 ){
+        printf("%d é diferente de %d\n", num1, num2);
+    }
+    if ( num1 < num2 ){
+        printf("%d é menor que %d\n", num1, num2);
+    }
+    if ( num1 > num2 ){
+        printf("%d é maior que %d\n", num1, num2);
+    }
+    if ( num1 <= num2 ){
+        printf("%d é menor ou igual a %d\n", num1, num2);
+    }
+    if ( num1 >= num2 ){
+        printf("%d é maior ou igual a %d\n", num1, num2);
+    }
 }
