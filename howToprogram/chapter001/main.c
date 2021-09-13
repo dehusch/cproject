@@ -8,8 +8,8 @@ int main(int argc, char *argv[])
     puts("Bem vindo");
     puts("\t a linguagem C!");
     printf("O printf continua ");
-    printf("na mesma linha, e o puts não!\n");
-    printf("Qual\n\tVocê\n\t\tacha\n\t\t\tMelhor?\n");
+    printf("na mesma linha, e o puts nao!\n");
+    printf("Qual\n\tVoce\n\t\tacha\n\t\t\tMelhor?\n");
     return 0;
 }
 // \t insere uma tabulação no texto
