@@ -32,5 +32,6 @@ int main() {
     if ( num1 >= num2 ){
         printf("%d e maior ou igual a %d\n", num1, num2);
     }
-    
+
+    return 0;
 }
