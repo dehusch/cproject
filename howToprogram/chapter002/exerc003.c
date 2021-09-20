@@ -1,4 +1,4 @@
-/*Escreva uma única instrução em C, ou linha única, que
+/*2.9 Escreva uma única instrução em C, ou linha única, que
 cumpra os comentários a seguir:
 a) Exiba a mensagem ‘Digite dois números.’
 b) Atribua o produto das variáveis b e c à variável a.
