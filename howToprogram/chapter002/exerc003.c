@@ -17,9 +17,9 @@ int main(){
     /*This is a program to calculet a payroll*/
 
     printf("Type two numbers?\n"); 
-    varA = varB * varC
-    scanf( “%d%d%d”, &varA, &varB, &varC );
+    varA = varB * varC;
+    scanf("%d%d%d", &varA, &varB, &varC);
 
-    int result = varB * varC;
+    int result = varA * varB * varC;
     printf("%d\n", result);
 }
