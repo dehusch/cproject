@@ -19,3 +19,16 @@ int main()
 
     return 0;
 }
+
+//RESPOSTAS
+
+/*
+a) /* Calcula o produto de três inteiros */
+/*
+b) int x, y, z, resultado;
+c) printf( “Digite três inteiros: ” );
+d) scanf( “%d%d%d”, &x, &y, &z );
+e) result = x * y * z;
+f) printf( “O produto é %d\n”, resultado );
+*/
+

@@ -31,3 +31,35 @@ esteéumnúmerosuperhiperlongo1234567
 esteéumnúmerosuperhiperlongo1234568
 l) Um programa que exibe três linhas de saída precisa
 conter três instruções printf.*/
+
+//RESPOSTAS
+
+/*a) Falso. A função printf sempre começa a imprimir
+onde o cursor estiver posicionado, e isso pode ser em
+qualquer lugar de uma linha na tela.
+b) Falso. Os comentários não causam qualquer ação
+quando o programa é executado. Eles são usados para
+documentar programas e melhorar sua legibilidade.
+c) Verdadeiro.
+d) Verdadeiro.
+e) Verdadeiro.
+f) Falso. C diferencia maiúsculas de minúsculas, de
+modo que essas variáveis são diferentes.
+g) Falso. As definições precisam aparecer após a chave à
+esquerda do corpo de uma função e antes de quaisquer
+instruções executáveis.
+h) Falso. Os argumentos em uma função printf normalmente
+não devem ser precedidos por um (&). Os argumentos
+após a string de controle de formato em uma
+função scanf normalmente devem ser precedidos por
+um (&). Discutiremos as exceções a essas regras nos capítulos
+6 e 7.
+i) Verdadeiro.
+j) Falso. Os operadores *, / e % estão no mesmo nível
+de precedência, e os operadores + e – estão em um
+nível de precedência mais baixo.
+k) Falso. Alguns sistemas podem distinguir os identificadores
+com mais de 31 caracteres.
+l) Falso. Uma instrução printf com várias sequências
+de escape \n pode exibir várias linhas.
+*/

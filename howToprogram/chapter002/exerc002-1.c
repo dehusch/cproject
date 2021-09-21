@@ -23,3 +23,10 @@ de ______.
 i) Quando um valor é lido de uma posição da memória,
 o valor nessa posição é preservado; esse processo
 é chamado de ______.*/
+
+//RESPOSTAS
+
+/*a) main. b) chave à esquerda ({), chave à direita (}). c)
+ponto e vírgula. d) printf. e) nova linha. f) scanf. g)
+%d. h) destrutivo. i) não destrutivo. j) if.*/
+

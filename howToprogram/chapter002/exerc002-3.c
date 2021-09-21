@@ -20,3 +20,22 @@ int main() {
 
     return 0;
 }
+
+//Respostas
+
+/*
+a) int c, estaVariável, q76354, número;
+b) printf( "Digite um inteiro:" );
+c) scanf( "%d", &a );
+d) if ( número != 7 )
+{
+printf( “A variável número não é
+igual a 7.\n” );
+}
+e) printf( “Este é um programa em C.\n” );
+f) printf( “Este é um programa em\nC.\n” );
+g) printf( “Este\né\num\nprograma\nem\
+nC.\n” );
+h) printf( “Este\té\tum\tprograma\tem\
+tC.\n” );
+*/

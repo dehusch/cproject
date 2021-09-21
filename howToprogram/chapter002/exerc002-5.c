@@ -20,3 +20,33 @@ int main()
 
     return 0;
 }
+
+//RESPOSTAS
+
+/*
+2.5 Veja a seguir.
+1 /* Calcula o produto de três inteiros
+*/
+/*
+2 #include <stdio.h>
+3
+4 int main( void )
+5 {
+6 int x, y, z, resultado; /* declara
+variáveis */
+/*
+7
+8 printf( “Digite três inteiros: ” );
+/* prompt */
+/*
+9 scanf( “%d%d%d”, &x, &y, &z ); /*
+lê três inteiros */
+/*
+10 result = x * y * z; /* multiplica
+os valores */
+/*
+11 printf( “O produto é %d\n”,
+result ); /* exibe o resultado */
+/*
+12 return 0;
+13 } /* fim da função main */
