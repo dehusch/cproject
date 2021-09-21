@@ -18,10 +18,10 @@ i) printf( “\n” );
 
 #include <stdio.h>
 
-int main();
+int main()
 {
-    int a = 2;
-    int b = 2;
+    int x = 2;
+    int y = 3;
 
-    printf("%d", a + a);
+    printf("%d", (x+x) * (y+y));
 }
