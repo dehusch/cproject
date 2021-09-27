@@ -9,7 +9,7 @@ d) printf( “x=%d”, x );
 e) printf( “%d = %d”, x + y, y + x );
 f) z = x + y;
 g) scanf( “%d%d”, &x, &y );
-h) /* printf( “x + y = %d”, x + y ); */
+h) printf( “x + y = %d”, x + y ); */
 /*
 i) printf( “\n” );
 */
@@ -35,7 +35,7 @@ ANS: Nothing. Value of x + y is assigned to z.
 g) scanf( "%d%d", &x, &y );
 ANS: Nothing. Two integer values are read into the location of x 
 and the location of y.
-h) /* printf( "x + y = %d", x + y ); */
+h) printf( "x + y = %d", x + y ); */
 /*
 ANS: Nothing. This is a comment.
 i) printf( "\n" );
