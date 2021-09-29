@@ -21,6 +21,8 @@ int main(){
     int x;
     int y;
     int z;
+    int menor;
+    int maior;
 
     printf("Digite um numero:");
     scanf("%d", &x);
@@ -29,6 +31,34 @@ int main(){
     printf("Digite mais um numero:");
     scanf("%d", &z);
 
-    printf("%d%d%d", x, y, z);
+    printf("Os numeros digitados foram: %d, %d, %d\n", x, y, z);
 
+    printf("A soma dos numeros é: %d\n", (x + y + z));
+    printf("A media dos numeros é: %d\n", (x + y + z)/2 );
+    printf("O produto dos numeros é: %d\n", (x * y * z) );
+
+    menor = x; //Consideramos x o menor
+    
+    if ( y < menor ) { //se y for menor, menor = y
+        menor = y;
+    }
+    
+    if ( z < menor ) { //se z for menor, menor = z
+        menor = z;
+    }
+
+    printf( "menor é %d\n", menor );
+    
+    maior = x;
+    
+    if ( y > maior ) {
+        maior = y;
+    }
+    
+    if ( z > maior ) {
+        maior = z;
+    }
+
+    printf( "maior é %d\n", maior );
+    return 0;
 }
