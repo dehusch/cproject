@@ -20,5 +20,7 @@ int main(){
     scanf("%f", &raio);
     printf("O diametro é: %f\n", raio * 2);
     printf("O Perimetro é: %f\n", (raio * 3.14159) * 2);
+    printf("A area é: %f\n", (raio * raio) * 3.14159);
 
+    return 0;
 }
