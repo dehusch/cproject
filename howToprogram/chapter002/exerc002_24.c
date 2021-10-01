@@ -12,15 +12,15 @@ int main(){
 
     int num;
 
-    printf("Digite um numero: ");
+    printf("Digite um numero: \n");
     scanf("%d", &num);
     
     if (num % 2 == 0){
-        printf("O numero é par!");
+        printf("O numero é par!\n");
     }
 
     if (num % 2 != 0){
-        printf("O numero é impar!");
+        printf("O numero é impar!\n");
     }
 
     return 0;

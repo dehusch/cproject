@@ -70,4 +70,54 @@ int main(){
     }
 
     printf("%d é o maior!\n", maior);
+
+
+//Outra solucão
+
+/* Exercise 2.23 Solution */
+    int largest;
+    int smallest;
+    int int1;
+    int int2;
+    int int3;
+    int temp;
+    
+    printf("Input 5 integers: ");
+    scanf( "%d%d%d%d%d", &largest, &smallest, &int1, &int2, &int3 );
+    
+    if ( smallest > largest ) { 
+        temp = largest;
+        largest = smallest;
+        smallest = temp;
+    }
+    
+    if ( int1 > largest ) {
+        largest = int1;
+    }
+    
+    if ( int1 < smallest ) {
+        smallest = int1;
+    }
+    
+    if ( int2 > largest ) {
+        largest = int2;
+    }
+    
+    if ( int2 < smallest ) {
+        smallest = int2;
+    }
+    
+    if ( int3 > largest ) {
+        largest = int3;
+    }
+    
+    if ( int3 < smallest ) {
+        smallest = int3;
+    }
+    
+    printf( "The largest value is %d\n", largest );
+    printf( "The smallest value is %d\n", smallest );
+    
+    return 0;
+
 }
