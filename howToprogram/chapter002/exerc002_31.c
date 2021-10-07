@@ -19,27 +19,27 @@ int main(){
     printf("Numero  Quadrado    Cubo\n");
     printf("%d       %d           %d\n", num, num*num, num*num*num);
 
-    num=1;
+    num = num + 1;
 
     printf("%d       %d           %d\n", num, num*num, num*num*num);
 
-    num=2;
+    num = num + 1;
 
     printf("%d       %d           %d\n", num, num*num, num*num*num);
 
-    num=3;
+    num = num + 1;
 
     printf("%d       %d           %d\n", num, num*num, num*num*num);
 
-    num=4;
+    num = num + 1;
 
     printf("%d       %d          %d\n", num, num*num, num*num*num);
 
-    num=5;
+    num = num + 1;
 
     printf("%d       %d          %d\n", num, num*num, num*num*num);
 
-    num=6;
+    num = num + 1;
 
     printf("%d       %d          %d\n", num, num*num, num*num*num);
 
