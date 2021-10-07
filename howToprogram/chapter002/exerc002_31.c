@@ -10,3 +10,39 @@ número      quadrado        cubo
 3           9               27
 4           16              64
 */
+#include <stdio.h>
+
+int main(){
+
+    int num=0;
+
+    printf("Numero  Quadrado    Cubo\n");
+    printf("%d       %d           %d\n", num, num*num, num*num*num);
+
+    num=1;
+
+    printf("%d       %d           %d\n", num, num*num, num*num*num);
+
+    num=2;
+
+    printf("%d       %d           %d\n", num, num*num, num*num*num);
+
+    num=3;
+
+    printf("%d       %d           %d\n", num, num*num, num*num*num);
+
+    num=4;
+
+    printf("%d       %d          %d\n", num, num*num, num*num*num);
+
+    num=5;
+
+    printf("%d       %d          %d\n", num, num*num, num*num*num);
+
+    num=6;
+
+    printf("%d       %d          %d\n", num, num*num, num*num*num);
+
+
+    return 0;
+}
