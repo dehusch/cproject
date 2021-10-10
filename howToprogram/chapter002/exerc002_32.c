@@ -30,3 +30,21 @@ Quando os cálculos de IMC são realizados com doubles,
 eles produzem números com pontos decimais; estes
 são os chamados números de ‘ponto flutuante’.]
 */
+#include <stdio.h>
+
+int main(){
+
+    float peso;
+    float altura;
+
+    printf("Digite seu peso: ");
+    scanf("%f", &peso);
+    printf("Digite sua altura: ");
+    scanf("%f", &altura);
+
+    float total = peso / (altura * altura);
+
+    printf("%f", total);
+
+    return 0;
+}
