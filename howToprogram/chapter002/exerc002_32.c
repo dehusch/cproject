@@ -40,7 +40,7 @@ int main(){
     printf("Digite seu peso: ");
     scanf("%f", &peso);
     printf("Digite sua altura: ");
-    scanf("%f", &altura);
+    scanf("%f", &altura);   //Peso em metros.
 
     float total = peso / (altura * altura);
 
