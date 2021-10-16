@@ -43,7 +43,7 @@ int main(){
     
     total = (km / (kmXlitro / comb));
 
-    printf("total")
+    printf("%d", total);
     return 0;
 
 }
