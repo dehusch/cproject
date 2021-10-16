@@ -24,6 +24,7 @@ int main(){
     float kmXlitro;
     float park;
     float tax;
+    float totalgas;
     float total;
 
     printf("Total de quilometros: ");
@@ -41,9 +42,16 @@ int main(){
     printf("Taxa Pedagio: ");
     scanf("%f", &tax);
     
-    total = km / (kmXlitro / comb);
+    totalgas = km / (kmXlitro / comb);
 
-    printf("%f", total);
+    printf("Valor gasto com gasolina: ");
+    printf("%f\n", totalgas);
+
+    total = totalgas + tax + park;
+
+    printf("Valor total gasto: ");
+    printf("%f\n", total);
+    
     return 0;
 
 }
