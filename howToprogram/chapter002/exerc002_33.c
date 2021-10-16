@@ -19,6 +19,31 @@ e) Gastos diários com pedágios.
 
 int main(){
 
-    printf("Teste");
+    int km;
+    int comb;
+    int kmXlitro;
+    int park;
+    int tax;
+    int total;
+
+    printf("Total de quilometros: ");
+    scanf("%d", &km);
+
+    printf("Preço Combustível: ");
+    scanf("%d", &comb);
+
+    printf("Media KM por litro: ");
+    scanf("%d", &kmXlitro);
+
+    printf("Valor Estacionamento: ");
+    scanf("%d", &park);
+
+    printf("Taxa Pedagio: ");
+    scanf("%d", &tax);
+    
+    total = (km / (kmXlitro / comb));
+
+    printf("total")
+    return 0;
 
 }
