@@ -106,7 +106,7 @@ int main(){
         printf( "Aprovado\n" );
     }/* fim do if */
 
-}
+
 
 //A estrutura de seleção if...else
 /*
@@ -124,3 +124,16 @@ Por exemplo, o comando de pseudocódigo:
         Imprima ‘Reprovado’
 */
 
+    int media;
+
+    printf("Digite a media do aluno: ");
+    scanf("%d", &media);
+
+    if ( media >= 6 ) {
+        printf( "Aprovado\n" );
+    } /* fim do if */
+    else {
+        printf( "Reprovado\n" );
+    } /* fim do else */
+
+}
