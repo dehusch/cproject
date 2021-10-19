@@ -108,4 +108,19 @@ int main(){
 
 }
 
+//A estrutura de seleção if...else
+/*
+O comando de seleção if executa uma ação indicada somente quando a 
+condição é verdadeira; caso contrário, a ação é desprezada. A 
+estrutura de seleção if...else permite que você determine que uma 
+ação deve ser executada quando a condição for verdadeira,e não 
+quando a condição for falsa. 
+
+Por exemplo, o comando de pseudocódigo:
+
+    Se a nota do aluno for maior ou igual a 60
+        Imprima ‘Aprovado’
+    se não
+        Imprima ‘Reprovado’
+*/
 
