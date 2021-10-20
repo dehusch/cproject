@@ -106,6 +106,7 @@ int main(){
         printf( "Aprovado\n" );
     }/* fim do if */
 
+    printf( "%s\n", nota >= 6 ? "Parabens" : "Tem que melhorar!" );
 
 
 //A estrutura de seleção if...else
@@ -135,5 +136,25 @@ Por exemplo, o comando de pseudocódigo:
     else {
         printf( "Reprovado\n" );
     } /* fim do else */
+
+//C oferece o operador condicional (?:)
+/*
+É muito semelhante ao comando if...else. O operador condicional é o único 
+operador ternário de C — ele aceita três operandos. Os operandos, com o 
+operador condicional, formam uma expressão condicional. O primeiro 
+operando é uma condição; o segundo operando é o valor para a expressão 
+condicional inteira, se a condição for verdadeira; e o terceiro operando 
+é o valor para a expressão condicional inteira se a condição for falsa. 
+
+Por exemplo, o comando printf:
+*/
+
+    printf( "%s\n", nota >= 6 ? "Parabens" : "Tem que melhorar!" );
+
+/*
+O segundo e o terceiro operandos em uma expressão condicional também podem 
+ser ações a serem executadas. Por exemplo, a expressão condicional:
+*/
+    nota >= 6 ? printf( "Sua nota foi maior ou igual a 6\n" ) : printf( "Sua nota foi menor que 6\n" );
 
 }
