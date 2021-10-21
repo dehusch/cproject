@@ -156,5 +156,5 @@ O segundo e o terceiro operandos em uma expressão condicional também podem
 ser ações a serem executadas. Por exemplo, a expressão condicional:
 */
     nota >= 6 ? printf( "Sua nota foi maior ou igual a 6\n" ) : printf( "Sua nota foi menor que 6\n" );
-
+//
 }
