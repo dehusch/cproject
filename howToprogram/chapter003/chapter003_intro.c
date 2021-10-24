@@ -180,9 +180,11 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
 
 */
 
-    produto = 3;
+    int produto = 3;
     while ( produto <= 100 ) {
-        roduto = 3 * produto;
+        produto = 3 * produto;
     } /* fim do while */
+    
+    printf("O produto é %d\n", produto);
 
 }
