@@ -187,4 +187,48 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
     
     printf("O produto é %d\n", produto);
 
+
+/*
+    Define total como zero
+    Define contador de notas como um
+    Enquanto contador de notas é menor ou igual a dez
+        Lê a próxima nota
+        Soma a nota ao total
+        Soma um ao contador de notas
+    Define a média da turma como o total dividido por dez
+    Imprime a média da turma
+*/
+
+
+
+    int contador; /* número da nota a digitar em seguida */
+    int nota;/* valor da nota */
+    int total;/* soma das notas inseridas pelo usuário */
+    int média;/* média das notas */
+
+    /* fase de inicialização */
+
+    total = 0;/* inicializa total */
+
+    contador = 1; /* inicializa contador do loop */
+
+    /* fase de processamento */
+
+    while ( contador <= 10 ) {/* loop 10 vezes */
+        printf( “Digite a nota: “ ); /* prompt para inserção */
+        scanf( “%d”, &nota );/* lê a nota do usuário */
+        total = total + nota;/* soma nota ao total */
+        contador = contador + 1;/* incrementa contador */
+
+    } /* fim do while */
+
+/* fase de término */
+
+    média = total / 10; /* divisão de inteiros */
+
+    printf( “Média da turma é %d\n”, média ); /* exibe resultado */
+
+    return 0; /* indica que programa foi concluído com sucesso */
+
+
 }
