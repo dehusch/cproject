@@ -69,7 +69,10 @@ partir de apenas sete tipos de comandos de controle combinados de duas
 maneiras. Isso é a essência da simplicidade.
 */
 
+//***********************
 //Estrutura de seleção IF
+//***********************
+
 /*
 As estruturas de seleção são usadas na escolha entre cursos de ação 
 alternativos. Por exemplo, suponha que a nota de corte em um exame 
@@ -108,8 +111,9 @@ int main(){
 
     printf( "%s\n", nota >= 6 ? "Parabens" : "Tem que melhorar!" );
 
-
+//********************************
 //A estrutura de seleção if...else
+//********************************
 /*
 O comando de seleção if executa uma ação indicada somente quando a 
 condição é verdadeira; caso contrário, a ação é desprezada. A 
@@ -137,7 +141,10 @@ Por exemplo, o comando de pseudocódigo:
         printf( "Reprovado\n" );
     } /* fim do else */
 
+//*************************************
 //C oferece o operador condicional (?:)
+//*************************************
+
 /*
 É muito semelhante ao comando if...else. O operador condicional é o único 
 operador ternário de C — ele aceita três operandos. Os operandos, com o 
@@ -156,5 +163,26 @@ O segundo e o terceiro operandos em uma expressão condicional também podem
 ser ações a serem executadas. Por exemplo, a expressão condicional:
 */
     nota >= 6 ? printf( "Sua nota foi maior ou igual a 6\n" ) : printf( "Sua nota foi menor que 6\n" );
-//
+
+//****************
+//Repeticao WHILE
+//****************
+
+/*
+Uma estrutura de repetição permite que você especifique que uma ação deverá
+ser repetida enquanto alguma condição perma necer verdadeira. 
+
+A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida 
+às compras:
+
+    Enquanto houver mais itens na minha lista de compras
+        Comprar próximo item e riscá-lo da minha lista
+
+*/
+
+    produto = 3;
+    while ( produto <= 100 ) {
+        roduto = 3 * produto;
+    } /* fim do while */
+
 }
