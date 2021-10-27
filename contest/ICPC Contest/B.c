@@ -3,7 +3,7 @@
     int main() {
     
     int i;
-    int fato[10]; //definindo uma lista com 10 fatores.
+    int fato[10]; //definindo um vetor com 10 posições
 
     fato[0] = 1;
 
