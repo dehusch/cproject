@@ -165,7 +165,7 @@ ser ações a serem executadas. Por exemplo, a expressão condicional:
     nota >= 6 ? printf( "Sua nota foi maior ou igual a 6\n" ) : printf( "Sua nota foi menor que 6\n" );
 
 //****************
-//Repeticao WHILE
+//3.7 Repeticao WHILE
 //****************
 
 /*
@@ -178,8 +178,13 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
     Enquanto houver mais itens na minha lista de compras
         Comprar próximo item e riscá-lo da minha lista
 
-*/
+*/  
+    
+    //*******************************************************************************
+    //3.8 Formulando algoritmos: estudo de caso 1 (repetição controlada por contador)
+    //*******************************************************************************
 
+    //Calcular o primeiro valor da potencia de 3 depois de 100.
     int produto = 3;
     while ( produto <= 100 ) {
         produto = 3 * produto;
@@ -228,17 +233,14 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
 
     printf( "Média da turma é %d\n", med ); /* exibe resultado */
 
-    //Se queremos achar o maior produto de 3 anterior a 100:
+    //Se queremos achar a maior potencia de 3 depois de 100:
 
-    produto = 3;
-    
-    while ( produto <= 100 ) {
-        produto = 3 * produto;
-    
-    } /* fim do while */
-
-    printf("%d", produto);
-
+    /*
+    ****************************************************************
+    3.9	Formulando algoritmos com refinamentos sucessivos top-down:
+        Estudo de caso 2 (repetição controlada por sentinela)
+    ****************************************************************
+    */
 
     return 0; /* indica que programa foi concluído com sucesso */
 
