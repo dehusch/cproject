@@ -228,6 +228,18 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
 
     printf( "Média da turma é %d\n", med ); /* exibe resultado */
 
+    //Se queremos achar o maior produto de 3 anterior a 100:
+
+    produto = 3;
+    
+    while ( produto <= 100 ) {
+        produto = 3 * produto;
+    
+    } /* fim do while */
+
+    printf("%d", produto);
+
+
     return 0; /* indica que programa foi concluído com sucesso */
 
 
