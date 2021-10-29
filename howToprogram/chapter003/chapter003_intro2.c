@@ -12,6 +12,9 @@
     da turma com repetição controlada por sentinela. (Parte 1 de 2.)
     */
     #include <stdio.h>
+
+    int main(){
+        
     int contador; /* número de notas digitadas */
     int nota; /* valor da nota */
     int total; /* soma das notas */
@@ -53,7 +56,7 @@
 		printf( "Nenhuma nota foi informada\n" );
     } /* fim do else */
 
-    
+
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
 
