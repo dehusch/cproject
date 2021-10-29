@@ -233,16 +233,6 @@ A estrutura em pseudocódigo descreve a repetição que ocorre durante uma ida
 
     printf( "Média da turma é %d\n", med ); /* exibe resultado */
 
-    //Se queremos achar a maior potencia de 3 depois de 100:
-
-    /*
-    ****************************************************************
-    3.9	Formulando algoritmos com refinamentos sucessivos top-down:
-        Estudo de caso 2 (repetição controlada por sentinela)
-    ****************************************************************
-    */
-
     return 0; /* indica que programa foi concluído com sucesso */
-
 
 }
