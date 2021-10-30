@@ -56,7 +56,7 @@
 		printf( "Nenhuma nota foi informada\n" );
     } /* fim do else */
 
-
+    //teste
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
 
