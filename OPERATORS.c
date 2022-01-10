@@ -29,7 +29,8 @@ int main(){
 
 
 /*
-C/C++ is rich in operators. In order to grasp them we will break them down into groups of arithmetic, increment, relational, logical, bitwise, assignment and miscellaneous.
+C/C++ is rich in operators. In order to grasp them we will break them down into groups 
+of arithmetic, increment, relational, logical, bitwise, assignment and miscellaneous.
 
 
     named cnstants
@@ -51,16 +52,21 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
         This will place yz in x. 
 
 
-    C has two operators for incrementing and decrementing. (This usually means adding or subtracting one, except when we get to pointers).
+    C has two operators for incrementing and decrementing. (This usually means adding or 
+    subtracting one, except when we get to pointers).
         ++ increment
         -- decrement
 
-        These operator must refer to a memory location also called an lvalue or lhs (i.e. an address) not an expression.
+        These operator must refer to a memory location also called an lvalue or lhs 
+        (i.e. an address) not an expression.
 
-        These operators have a prefix and postfix notation. In postfix notation the variable is changed after its value has been accessed. In prefix notation the change happens before accessing the value of the variable. 
+        These operators have a prefix and postfix notation. In postfix notation the 
+        variable is changed after its value has been accessed. In prefix notation the 
+        change happens before accessing the value of the variable. 
 
 
-    Relational operators are used to describe the relationship between operands. The relational operators are:
+    Relational operators are used to describe the relationship between operands. 
+    The relational operators are:
         > greater than
         >= greater than or equal.
         < less than
@@ -68,13 +74,16 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
         == equal ( do not confuse this with =).
         != not equal
 
-        If the relationship is true the expression returns a 1. If it is false the expression returns a 0. 
+        If the relationship is true the expression returns a 1. If it is false 
+        the expression returns a 0. 
 
     Logical operators are used to build complex expression. The 3 logical operators are :
         && and
-        If either operand is zero, and returns a 0. If both operands are non zero and returns a 1.
+        If either operand is zero, and returns a 0. If both operands are non zero 
+        and returns a 1.
         || or
-        If both operands are zero return a zero (0), If either operand is non zero return a 1.
+        If both operands are zero return a zero (0), If either operand is non zero 
+        return a 1.
         ! not
         Returns 0 if given non zero, returns 1 if given 0. 
 
@@ -130,7 +139,8 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
     C has the following assignment operators;
         = assignment,
         This operator is evaluated right to left so. a=b=c=2; is a valid c statement.
-        C also has shorthand assignment operator so that a variable does not need to be specified twice in a expression.
+        C also has shorthand assignment operator so that a variable does not need to be 
+        specified twice in a expression.
             += add and assign a+=b means a=a+b
             -=
             *=
@@ -143,7 +153,8 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
             ^= 
 
 
-    Pointer indirection also called the deference operator. The * means use the address in the pointer to access memory. For example:
+    Pointer indirection also called the deference operator. The * means use the address 
+    in the pointer to access memory. For example:
 
     #include <iostream>
     using namespace std;
@@ -163,7 +174,8 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
     4 4160748424 4160748428
 
     iostream
-    Working class derived from both istream and ostream. you include this class with <iostream> definition.
+    Working class derived from both istream and ostream. you include this class 
+    with <iostream> definition.
 
         Objects
             cin
@@ -176,7 +188,9 @@ C/C++ is rich in operators. In order to grasp them we will break them down into 
 
         Overloaded Operators
             <<
-            Shift left is overload and called the stream insertion operator. This operator was chosen because it associates left to right, low order of precedence and just the way it look denoting the flow of data. Which means that statements like:
+            Shift left is overload and called the stream insertion operator. 
+            This operator was chosen because it associates left to right, low order 
+            of precedence and just the way it look denoting the flow of data. Which means that statements like:
 
             	int i=47;
             	cout << i << " " << i + 3 << endl;
