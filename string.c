@@ -34,6 +34,7 @@ char sobrenome[31] = "Alberto Gomes";
 int main(){
     
     char nome[16];
+    char frase[101];
 
     printf("\n Digite um nome:");
 
@@ -57,6 +58,16 @@ int main(){
     caso, sempre virá do teclado, portanto usaremos stdin (standard input).
 
     */
+
+    printf("\n Digite uma frase:");
+
+    fflush(stdin);
+    
+    scanf("%c", frase);
+
+    fgets(frase, 101, stdin);
+
+    printf("\n Frase digitada: %s", frase);
 
     return 0;
 }
