@@ -15,7 +15,7 @@ ______ e ______. *Sequencia, seleção e  repetição.
 
 A estrutura de seleção ______ é usada para execu-
 tar uma ação quando uma condição é verdadeira e
-outra ação quando essa condição é falsa. *If
+outra ação quando essa condição é falsa. *If...else
 
 Várias instruções agrupadas com chaves ({ e }) são
 chamadas de ______. *Bloco ou instrução composta.
@@ -27,7 +27,7 @@ permanecer verdadeira. *While
 
 A repetição de um conjunto de instruções por um
 número específico de vezes é chamada de repetição
-______. *Controlada
+______. *Controlada por contador
 
 Quando não se sabe com antecedência quantas vezes
 um conjunto de instruções será repetido, um valor de
