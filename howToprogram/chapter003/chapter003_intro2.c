@@ -59,5 +59,3 @@
     //teste
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
-
-
