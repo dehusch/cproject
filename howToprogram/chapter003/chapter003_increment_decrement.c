@@ -45,3 +45,7 @@ int main( void ){
     printf( "%d\n", c ); /* imprime 6 */
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
+
+/*Tentar usar um operador de incremento ou decremento em uma expressão que não seja um nome de variável sim-
+ples é um erro de sintaxe; escrever ++(x + 1), por exemplo.*/
+
