@@ -30,6 +30,9 @@ int z = 0;
 int produto = 2;
 int contador = 0;
 int total = 3;
+float q = 0;
+float numero = 123.4567;
+float pi = 3.14159
 
 
 int main(){
@@ -51,6 +54,7 @@ int main(){
         }
     }
     //Fim resposta D
+    
     //Resposta E
     printf("\nResposta do item E\n");
     x--;
@@ -59,6 +63,7 @@ int main(){
     total = total - x;
     printf("Total - X = %d\n", total);
     //Fim da resposta E
+    
     //Resposta F
     printf("\nResposta do item F\n");
     printf("Valor de Total = %d\n", total);
@@ -69,7 +74,16 @@ int main(){
     printf("X decrementado = %d\n", x);
     total = total + x;
     printf("Total + X com X decrementado = %d\n", total);
+    //Fim da resposta F
 
+    //Resposta G
+    printf("\nResposta do item G\n");
+    q = 3 != 5;
+    printf("%.2f\n", q);
+    //Fim da resposta G
 
+    //Resposta H
+    printf("\nResposta do item H\n");
+    printf("%.2f\n", numero);
     return 0;
 }
