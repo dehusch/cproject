@@ -32,7 +32,7 @@ int contador = 0;
 int total = 3;
 float q = 0;
 float numero = 123.4567;
-float pi = 3.14159
+float pi = 3.14159;
 
 
 int main(){
@@ -78,12 +78,37 @@ int main(){
 
     //Resposta G
     printf("\nResposta do item G\n");
-    q = 3 != 5;
+    q = 3 % 5;
+    
     printf("%.2f\n", q);
     //Fim da resposta G
 
     //Resposta H
     printf("\nResposta do item H\n");
     printf("%.2f\n", numero);
+    //Fim da resposta H
+
+    //Resposta I
+    printf("\nResposta do item I\n");
+    printf("%.3f\n", pi);
+    //Fim da resposta I
+
+
     return 0;
 }
+/* Respostas do Livro
+
+a) z = x++ + y;
+b) produto *= 2;
+c) produto = produto * 2;
+d) if ( contador > 10 )
+    printf( “Contador é maior que 10.\n” );
+e) total –= ––x;
+f) total += x––;
+g)  q %= divisor;
+    q = q % divisor;
+h) printf( “%.2f”, 123.4567 );
+    123.46 é exibido.
+i) printf( “%.3f\n”, 3.14159 );
+    3.142 é exibido.
+*/
