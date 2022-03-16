@@ -35,4 +35,6 @@ int main(){
     x++;
     z = x + y;
     printf("\nA soma é : %d\n", z);
+
+    return 0;
 }
