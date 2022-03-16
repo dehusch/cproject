@@ -23,10 +23,12 @@ três dígitos à direita do ponto decimal. Que valor é
 impresso?
 */
 #include<stdio.h>
-//resposta A
+//resposta A, B e C
 int x = 1;
 int y = 1;
 int z = 0;
+int produto = 2;
+int contador = 0;
 
 
 
@@ -34,7 +36,14 @@ int main(){
     z = x + y;
     x++;
     z = x + y;
+    produto *=2;
     printf("\nA soma é : %d\n", z);
+    printf("%d\n", produto);
+    produto = produto * 2;
+    printf("%d\n", produto);
+    //fim resposta A, B e C
+    
+
 
     return 0;
 }
