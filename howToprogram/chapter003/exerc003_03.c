@@ -29,7 +29,7 @@ int y = 1;
 int z = 0;
 int produto = 2;
 int contador = 0;
-
+int total = 3;
 
 
 int main(){
@@ -42,7 +42,33 @@ int main(){
     produto = produto * 2;
     printf("%d\n", produto);
     //fim resposta A, B e C
-    
+    //Resposta D
+    printf("\nResposta do item D\n");
+    while(contador <= 10){
+        contador = contador + 1;
+        if(contador > 10){
+            printf("\nContador maior que 10\n");
+        }
+    }
+    //Fim resposta D
+    //Resposta E
+    printf("\nResposta do item E\n");
+    x--;
+    printf("X = %d\n", x);
+    printf("Total = %d\n", total);
+    total = total - x;
+    printf("Total - X = %d\n", total);
+    //Fim da resposta E
+    //Resposta F
+    printf("\nResposta do item F\n");
+    printf("Valor de Total = %d\n", total);
+    total = total + x;
+    printf("Valor de atual X = %d\n", x);
+    printf("Total + X = %d\n", total);
+    x--; //X era 1 e foi decrementado para 0
+    printf("X decrementado = %d\n", x);
+    total = total + x;
+    printf("Total + X com X decrementado = %d\n", total);
 
 
     return 0;
