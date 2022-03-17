@@ -10,3 +10,15 @@ e)imprimir 'A soma é:' seguido pelo valor da variá­vel soma.
 */
 #include <stdio.h>
 
+int soma = 0;
+int x = 1;
+
+int main(){
+    soma = soma + 1;
+    printf("Soma = %d", soma);
+
+    return 0;
+}
+
+
+
