@@ -1,22 +1,21 @@
 /*
-Escreva uma instrução em C que possibilite realizar as
-seguintes tarefas:
-a) declarar variáveis soma e x para que sejam do tipo int.
-b) inicializar variável x em 1.
-c) inicializar variável soma em 0.
-d) somar variável x à variável soma e atribuir o resulta-
-do à variável soma.
-e)imprimir 'A soma é:' seguido pelo valor da variá­vel soma.
+Combine as instruções que você escreveu no Exercício 3.4
+em um programa que calcule a soma dos inteiros de 1 a
+10. Use a estrutura while para realizar um loop pelas
+instruções de cálculo e incremento. O loop deverá termi-
+nar quando o valor de x chegar a 11.
 */
 #include <stdio.h>
 
-int soma = 0;
 int x = 1;
+int soma = 0;
 
 int main(){
-    soma = soma + x;
-    printf("Soma = %d\n", soma);
-
+        
+    while (x <= 10){
+        soma = soma + x;
+        printf("Soma = %d\n", soma);
+    }
     return 0;
 }
 
