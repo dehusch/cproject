@@ -7,15 +7,17 @@ nar quando o valor de x chegar a 11.
 */
 #include <stdio.h>
 
-int x = 1;
-int soma = 0;
+int main(void){
+    int soma, x;
+    x = 1;
+    soma = 0;
 
-int main(){
-        
     while (x <= 10){
         soma = soma + x;
-        printf("Soma = %d\n", soma);
+        ++x;
+        printf("%d\n", soma);
     }
+    printf("A soma é: %d\n", soma);
     return 0;
 }
 
