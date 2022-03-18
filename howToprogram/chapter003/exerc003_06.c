@@ -12,8 +12,8 @@ int main(){
     produto = 5;
     x = 5;
     produto *= x++;
-    printf("Produto = %d", produto);
-    printf("X = %d", x);
+    printf("Produto = %d\n", produto);
+    printf("X = %d\n", x);
 
     return 0;
 }
