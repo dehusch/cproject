@@ -15,9 +15,10 @@ int main(void){
     while (x <= 10){
         soma = soma + x;
         ++x;
-        printf("%d\n", soma);
+        printf("soma é = %d\n", soma);
+        printf("x é = %d\n", x);
     }
-    printf("A soma é: %d\n", soma);
+    printf("A soma total é: %d\n", soma);
     return 0;
 }
 
