@@ -14,8 +14,15 @@ h) exibam a variável inteira potência com printf.
 */
 #include<stdio.h>
 
-int a, y, i, porencia;
+int x, y, i, potencia;
 
 int main(){
+    printf("Digite o Valor de X: ");
+    scanf("%d", &x);
+    printf("X = %d\n", x);
+    printf("Digite o Valor de Y: ");
+    scanf("%d", &y);
+    printf("Y = %d\n", y);
     
+    return 0;
 }
