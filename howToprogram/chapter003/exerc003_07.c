@@ -12,3 +12,10 @@ g) testem i para verificar se ele é maior ou igual a y na
 condição de uma estrutura while.
 h) exibam a variável inteira potência com printf.
 */
+#include<stdio.h>
+
+int a, y, i, porencia;
+
+int main(){
+    
+}
