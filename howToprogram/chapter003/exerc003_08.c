@@ -8,9 +8,9 @@ int main( void ){
     int x, y, i, potência; /* declara variáveis */
     i = 1; /* inicializa i */
     potência = 1; /* inicializa potência */
-
+    printf("Digite valor de X: ");
     scanf( "%d", &x ); /* lê do usuário o valor para x */
-
+    printf("Digite valor de y: ");
     scanf( "%d", &y ); /* lê do usuário o valor para y */
     
     while ( i <= y ) { /* loop while i é menor ou igual a y */
