@@ -15,8 +15,9 @@ int main( void ){
     
     while ( i <= y ) { /* loop while i é menor ou igual a y */
         potência *= x; /* multiplica potência por x */
+        printf("Potencia = %d\n", potência); //verifica o valor potencia a cada loop.
         ++i; /* incrementa i */
     } /* fim do while */
-    printf( "%d", potência ); /* exibe potência */
+    printf( "%d elevado a %d é = %d\n", x, y, potência); /* exibe potência */
     return 0;
 } /* fim da função main */
