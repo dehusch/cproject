@@ -14,14 +14,14 @@ int main(){
 		printf("Idade é maior ou igual a 65\n");
 	else
 		printf("Idade é menor que 65\n");
-	
+	//B Answer
 	while (x <= 10){
 		total += x;
 		++x;
 		printf("total = %d\n", total);
 		printf("X = %d\n", x);
 	}
-	//D Answer
+	//C Answer
 	while (x <= 100){
 		total += x;
 		printf("total = %d\n", total);
@@ -29,6 +29,8 @@ int main(){
 		printf("X = %d\n", x);
 
 	}
+	//D Answer
+	
 
 	return 0;
 }
