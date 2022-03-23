@@ -30,6 +30,14 @@ int main(){
 
 	}
 	//D Answer
+	printf("Digite qualquer dezena: ");
+	scanf("%d", &y);
+	
+	while (y > 0){
+		--y;
+		printf("Y= %d\n", y);
+
+	}
 	
 
 	return 0;
@@ -43,6 +51,6 @@ fundamental rule that you should add a value to total integer.
 
 C - Add { }.
 
-D - 
+D - Se colocar nessa condição, entra loop infinito.
 
 */
