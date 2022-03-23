@@ -21,13 +21,26 @@ int main(){
 		printf("total = %d\n", total);
 		printf("X = %d\n", x);
 	}
+	//D Answer
+	while (x <= 100){
+		total += x;
+		printf("total = %d\n", total);
+		++x;
+		printf("X = %d\n", x);
+
+	}
 
 	return 0;
 }
 //ANSWERS
 /*
 A - remove ; at the end of line.
-B - Nothing was wrong besides a fundamental rule that you should add a value to total integer.
 
+B - Nothing was wrong besides a 
+fundamental rule that you should add a value to total integer.
+
+C - Add { }.
+
+D - 
 
 */
