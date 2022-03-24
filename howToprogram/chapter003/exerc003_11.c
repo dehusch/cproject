@@ -1,3 +1,26 @@
+/*
+3.11 Identifique e corrija os erros dos seguintes trechos e có-
+digos: [Nota: pode haver mais de um erro em cada um.]
+a) 	if ( idade >= 65 );
+ 		printf( “Idade é maior ou igual a 65\n” );
+	else
+	printf( “Idade é menor que 65\n” );
+	
+b) int x = 1, total;
+	while ( x <= 10 ){
+		total += x;
+		++x;
+	}
+c)	while ( x <= 100 )
+		total += x;
+		++x;
+d)	while ( y > 0 ) {
+		printf( “%d\n”,
+ 		y );
+		++y;
+	}
+*/
+
 #include <stdio.h>
 
 int idade = 1;
@@ -32,7 +55,7 @@ int main(){
 	//D Answer
 	printf("Digite qualquer dezena: ");
 	scanf("%d", &y);
-	
+
 	while (y > 0){
 		--y;
 		printf("Y= %d\n", y);
