@@ -23,5 +23,15 @@ int main()
 
     }
 
+    //Sentinel value
+    int a = 1, soma = 0;
+
+    while(a != 0){
+        printf("Digite um valor (0 para sair): ");
+        scanf("%d", &a);
+        soma += a;
+    }
+    printf("A soma total é = %d\n", soma);
+
     return 0;
 }
