@@ -10,5 +10,6 @@ int main(){
     }
 
     printf("Total = %d\n", total);
+    getchar();
     return 0;
 }
