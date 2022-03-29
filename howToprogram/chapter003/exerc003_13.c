@@ -11,6 +11,7 @@ int main(){
 
     printf("Total = %d\n", total);
     getchar();
-    printf("Teste after getchar")
+    printf("Teste after getchar");
+
     return 0;
 }
