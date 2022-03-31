@@ -37,18 +37,26 @@ O consumo geral foi de 10,800712 km/l
 float litros = 0;
 float km = 0;
 float consumo = 0;
+float somaCon = 0;
+float media = 0;
+float contador = 0;
 
 int main(){
     while (litros != -1)
     {
         printf("Informe quantos litros consumiu: ");
         scanf("%f", &litros);
-        //printf("%.2f", litros);
         printf("Informe quantos km dirigiu: ");
         scanf("%f", &km);
         consumo = km / litros;
-        printf("O consumo é de %.2fkm/l", consumo);
+        printf("O consumo é de %.2fkm/l\n\n", consumo);
+        somaCon = somaCon + consumo;
+        media = somaCon / contador;
+        contador++;
+        
     }
+
+    printf("Media = %.2f\n", media);
 
     return 0;
 }
