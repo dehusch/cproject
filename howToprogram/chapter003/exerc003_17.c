@@ -32,3 +32,23 @@ Informe quantos litros abasteceu (-1 para terminar):
 O consumo geral foi de 10,800712 km/l
 */
 
+#include<stdio.h>
+
+float litros = 0;
+float km = 0;
+float consumo = 0;
+
+int main(){
+    while (litros != -1)
+    {
+        printf("Informe quantos litros abasteceu: ");
+        scanf("%f", &litros);
+        printf("%.2f", litros);
+    }
+    getchar();
+
+    return 0;
+}
+
+
+
