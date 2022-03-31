@@ -41,11 +41,14 @@ float consumo = 0;
 int main(){
     while (litros != -1)
     {
-        printf("Informe quantos litros abasteceu: ");
+        printf("Informe quantos litros consumiu: ");
         scanf("%f", &litros);
-        printf("%.2f", litros);
+        //printf("%.2f", litros);
+        printf("Informe quantos km dirigiu: ");
+        scanf("%f", &km);
+        consumo = km / litros;
+        printf("O consumo é de %.2fkm/l", consumo);
     }
-    getchar();
 
     return 0;
 }
