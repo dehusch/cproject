@@ -47,3 +47,16 @@ Informe número da conta (-1 para terminar): -1
 
 int conta = 0;
 float saldoI = 0;
+float totalE = 0;
+float totalC = 0;
+float limiteC = 0;
+
+int main(){
+    while (conta != -1)
+    {
+        printf("Digite o numero da conta (-1 exit): ");
+        scanf("%d", &conta);
+    }
+    
+    return 0;
+}
