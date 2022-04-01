@@ -57,7 +57,9 @@ int main(){
         printf("Digite o numero da conta (-1 exit): ");
         scanf("%d", &conta);
         printf("Digite o saldo: ");
-        scanf("%d", &totalC);
+        scanf("%.2f", &saldoI);
+        printf("Digite o total de encargos");
+        scanf("%.2f", &totalE);
     }
     
     return 0;
