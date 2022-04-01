@@ -44,3 +44,6 @@ Informe número da conta (-1 para terminar): -1
 */
 
 #include<stdio.h>
+
+int conta = 0;
+float saldoI = 0;
