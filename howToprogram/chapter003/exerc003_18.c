@@ -50,11 +50,11 @@ float saldoI = 0;
 float totalE = 0;
 float totalC = 0;
 float limiteC = 0;
-float saldoC = 0
-
+float saldoC = 0;
 
 
 int main(){
+
     printf("Digite o numero da conta (-1 exit): ");
     scanf("%d", &conta);
     
@@ -66,14 +66,22 @@ int main(){
         scanf("%f", &totalE);
         printf("Digite o total de creditos: ");
         scanf("%f", &totalC);
+        printf("Digite o Limite de credito: ");
+        scanf("%f", &limiteC);
 
-        saldoC = saldoI + totalE - totalC
+        saldoC = saldoI + totalE - totalC;
         
         printf("Digite o numero da conta (-1 exit): ");
         scanf("%d", &conta);
+
+        if (saldoC > limiteC)
+        {
+            /* code */
+        }
+        
     }
     
 
-    printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f Saldo Corrigido: %.2f", saldoI, totalE, totalC, saldoC);
+    printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f, Saldo Corrigido: %.2f", saldoI, totalE, totalC, saldoC);
     return 0;
 }
