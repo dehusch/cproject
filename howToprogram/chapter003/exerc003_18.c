@@ -51,17 +51,23 @@ float totalE = 0;
 float totalC = 0;
 float limiteC = 0;
 
+
+
 int main(){
+    printf("Digite o numero da conta (-1 exit): ");
+    scanf("%d", &conta);
+    
     while (conta != -1)
     {
-        printf("Digite o numero da conta (-1 exit): ");
-        scanf("%d", &conta);
         printf("Digite o saldo: ");
         scanf("%f", &saldoI);
         printf("Digite o total de encargos: ");
         scanf("%f", &totalE);
         printf("Digite o total de creditos: ");
         scanf("%f", &totalC);
+        
+        printf("Digite o numero da conta (-1 exit): ");
+        scanf("%d", &conta);
     }
     
 
