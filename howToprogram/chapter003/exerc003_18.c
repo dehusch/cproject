@@ -45,15 +45,14 @@ Informe número da conta (-1 para terminar): -1
 
 #include<stdio.h>
 
-int conta = 0;
-float saldoI = 0;
-float totalE = 0;
-float totalC = 0;
-float limiteC = 0;
-float saldoC = 0;
-
-
 int main(){
+    
+    int conta = 0;
+    float saldoI = 0;
+    float totalE = 0;
+    float totalC = 0;
+    float limiteC = 0;
+    float saldoC = 0;
 
     printf("Digite o numero da conta (-1 exit): ");
     scanf("%d", &conta);
@@ -76,12 +75,13 @@ int main(){
 
         if (saldoC > limiteC)
         {
-            /* code */
+            printf("\nConta: %d\n Limite: %.2f\n Saldo Corrigido: %.2f\n", conta, limiteC, saldoC);
+            printf("Saldo Superior ao limite da conta\n\n\n");
         }
         
     }
     
 
-    printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f, Saldo Corrigido: %.2f", saldoI, totalE, totalC, saldoC);
+    printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f, Limite: %.2f, Saldo Corrigido: %.2f", saldoI, totalE, totalC, limiteC, saldoC);
     return 0;
 }
