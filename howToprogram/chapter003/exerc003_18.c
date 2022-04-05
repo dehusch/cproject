@@ -82,6 +82,6 @@ int main(){
     }
     
 
-    printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f, Limite: %.2f, Saldo Corrigido: %.2f", saldoI, totalE, totalC, limiteC, saldoC);
+    //printf("Saldo: %.2f, Encargos: %.2f, Credito: %.2f, Limite: %.2f, Saldo Corrigido: %.2f", saldoI, totalE, totalC, limiteC, saldoC);
     return 0;
 }
