@@ -70,14 +70,14 @@ int main(){
 
         saldoC = saldoI + totalE - totalC;
         
-        printf("Digite o numero da conta (-1 exit): ");
-        scanf("%d", &conta);
-
-        if (saldoC > limiteC)
+                if (saldoC > limiteC)
         {
             printf("\nConta: %d\n Limite: %.2f\n Saldo Corrigido: %.2f\n", conta, limiteC, saldoC);
             printf("Saldo Superior ao limite da conta\n\n\n");
         }
+
+        printf("Digite o numero da conta (-1 exit): ");
+        scanf("%d", &conta);
         
     }
     
