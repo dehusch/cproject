@@ -37,16 +37,20 @@ double comission;
 double sumfixcom;
 
 int main(int argc, char const *argv[]){
-    while (sell != -1){
-    
+
     printf("Input the sells value [-1 exit]: ");
     scanf("%lf", &sell);
 
-    comission = sell * 0.09;
+    while (sell != -1){
+    
+        comission = sell * 0.09;
 
-    sumfixcom = fix + comission;
+        sumfixcom = fix + comission;
 
-    printf("The payment will be:%.2f ", sumfixcom);
+        printf("The payment will be:%.2f\n ", sumfixcom);
+
+        printf("Input the sells value [-1 exit]: ");
+        scanf("%lf", &sell);
 
     }
     
