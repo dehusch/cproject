@@ -1,6 +1,6 @@
 /*
 Calculadora de juros. Os juros simples sobre um
-empréstimo são calculados a partir da fórmula
+empréstimo  calculados a partir da fórmula
 juros = principal * taxa * dias / 365;
 Essa fórmula considera que taxa seja a taxa de juros
 anual e, portanto, inclui a divisão por 365 (dias). Desenvolva
