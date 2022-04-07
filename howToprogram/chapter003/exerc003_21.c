@@ -47,11 +47,17 @@ int main(){
         
         printf("Insert the payment: ");
         scanf("%lf", &salario);
+            if(horasN > 40){
+                salario *= horasN;
+                printf("Payment = %.2lf\n\n", salario);
+            }
+            else{
+                printf("Payment < 40 hours: %.2lf", salario);
+            }
+
+        printf("Insert worked hours: ");
+        scanf("%lf", &horasN);
         
-        salario *= horasN;
-
-        printf("Payment = %.2lf", salario);
-
         }
     return 0;
 }
