@@ -37,7 +37,8 @@ Digite # de horas trabalhadas (-1 para terminar):-1
 double horasN;
 double horasE;
 double salario;
-double salario40;
+double salarioMA;
+double salarioME;
 
 int main(){
     printf("Insert worked hours: ");
@@ -48,11 +49,14 @@ int main(){
         printf("Insert the payment: ");
         scanf("%lf", &salario);
             if(horasN > 40){
-                salario *= horasN;
-                printf("Payment = %.2lf\n\n", salario);
+                horasE = (horasN - 40) * 1.5;
+                salarioMA = salario * 40; //400
+                salarioME = salario * horasE;
+                printf("Payment = %.2lf\n\n", salarioMA + salarioME);
             }
             else{
-                printf("Payment < 40 hours: %.2lf", salario);
+                salario *= horasN;
+                printf("Payment < 40 hours: %.2lf\n\n", salario);
             }
 
         printf("Insert worked hours: ");
