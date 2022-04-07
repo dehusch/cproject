@@ -37,6 +37,7 @@ Digite # de horas trabalhadas (-1 para terminar):-1
 double horasN;
 double horasE;
 double salario;
+double salario40;
 
 int main(){
     printf("Insert worked hours: ");
@@ -48,7 +49,9 @@ int main(){
         scanf("%lf", &salario);
         
         salario *= horasN;
-        
-        printf("%lf", salario);
+
+        printf("Payment = %.2lf", salario);
+
         }
+    return 0;
 }
