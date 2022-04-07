@@ -38,3 +38,17 @@ double horasN;
 double horasE;
 double salario;
 
+int main(){
+    printf("Insert worked hours: ");
+    scanf("%lf", &horasN);
+
+    while(horasN != -1){
+        
+        printf("Insert the payment: ");
+        scanf("%lf", &salario);
+        
+        salario *= horasN;
+        
+        printf("%lf", salario);
+        }
+}
