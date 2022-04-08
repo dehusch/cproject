@@ -6,7 +6,19 @@ de decremento --.
 */
 #include<stdio.h>
 
+int x;
+
 int main(){
-    printf("")
-    
+
+    x = 6;
+    printf("%d\n", x);
+    printf("%d\n", --x);
+    printf("%d\n", x);
+
+    x = 6;
+    printf("%d\n", x);
+    printf("%d\n", x--);
+    printf("%d\n", x);
+
+    return 0;
 }
