@@ -33,3 +33,18 @@ int main()
     
     return 0;
 }
+
+
+/*
+Book solution
+#include <stdio.h>
+int main(){
+    int i = 0;
+    // loop while i is less than 11
+    while ( ++i < 11 ) {
+        printf( "%d ", i );
+    }
+    return 0;
+}
+
+*/
