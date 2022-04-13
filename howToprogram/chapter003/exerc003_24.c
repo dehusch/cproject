@@ -27,18 +27,23 @@ int main(int argc, char const *argv[])
 {
     int numero;
     int maior = 0;
-    for (int i = 0; i < 10; i++)
+    
+    printf("Digite um numero: ");
+    scanf("%d", &maior);
+    
+    for (int i = 0; i < 9; i++)
     {
-        printf("Digite um numero: ");
+        printf("Digite mais um numero: ");
         scanf("%d", &numero);
 
-        if (maior > numero)
+        if (numero > maior)
         {
-            printf("%d", numero);
+            maior = numero;
         }
-
-        printf("Numero: %d, Maior: %d", numero, maior);
+        printf("Numero: %d, Maior: %d\n", numero, maior);
     }
     
+    printf("O maior numero e %d", maior);
+
     return 0;
 }
