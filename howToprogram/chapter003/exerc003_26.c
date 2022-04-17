@@ -13,12 +13,12 @@ A   A+2 A+4 A+6
 int main(int argc, char const *argv[])
 {
     int num = 0;
-    printf("A   A+2 A+4 A+6");
+    printf("A       A+2     A+4     A+6\n");
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 5; i++)
     {
-        num++;
-        printf("%d\t    %d\n", num, num+2);
+        num += 3;
+        printf("%d\t%d\t%d\t%d\n", num, num+2, num+4, num+6);
     }
     
 
