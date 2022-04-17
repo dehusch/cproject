@@ -9,12 +9,12 @@ N 10*N 100*N 1000
 int main(int argc, char const *argv[])
 {
     int num = 0;
-    printf("N   N*10    N*100   N*1000\n");
+    printf("N       N*10    N*100   N*1000\n");
 
     for (int i = 0; i < 10; i++)
     {
         num++;
-        printf("%d\n", num);
+        printf("%d\t%d\t%d\t%d\n", num, num*10, num*100, num*1000);
     }
          
     return 0;
