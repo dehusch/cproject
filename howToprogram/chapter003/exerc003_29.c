@@ -5,8 +5,9 @@ int main( void ){
     int contador = 1; /* inicializa contador */
     while ( contador <= 10 ) { /* loop 10 vezes*/
         /* exibe linha de texto */
-        printf("%s\n", contador);
+        printf("%d\n", contador);
         printf( "%s\n", contador % 2 ? "****" : "++++++++" );
+        printf("%s\n", contador >= 10 ? "Sim" : "Nao");
         contador++; /* incrementa contador */
     } /* fim do while */
 
