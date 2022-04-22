@@ -1,4 +1,10 @@
 //3.29 O que o programa a seguir exibe?
+/*
+O operador ?: é condicional.
+Um metodo mnemonico pode ser utilizado:
+O valor é verdadeiro"?" "sim" ":" "Não"
+*/
+
 #include <stdio.h>
 
 int main( void ){
