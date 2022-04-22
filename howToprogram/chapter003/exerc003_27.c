@@ -12,21 +12,21 @@ int main(int argc, char const *argv[])
     int maior = 0;
     int segmaior = 0;
     printf("Digite um numero: ");
-    scanf("%d", &maior); //Se eu digitar 10, o segmaior é 10.
+    scanf("%d", &maior); //Se eu digitar 10, o maior é 10.
     
     for (int i = 0; i < 9; i++)
     {
         printf("Digite mais um numero: ");
         scanf("%d", &numero); //se eu digitar 20 o numero é 20.
 
-        if (numero > maior) //como numero é maior que que segmaior 
+        if (numero > maior) //como numero é maior que que maior 
         {
-            segmaior = maior; // maior é 20.
-            maior = numero;
+            segmaior = maior; //segmaior era 0 e agora é 10
+            maior = numero; //maior agora é = 20.
         }
         else {
-            if (numero > segmaior){ //como o 
-                segmaior = numero;
+            if (numero > segmaior){ //Numero que vale 20 é maior que  segmaior que vale 10 então:
+                segmaior = numero; // segmaior que era 10 agora é igual a numero que vale 20.
             }
             
         }
