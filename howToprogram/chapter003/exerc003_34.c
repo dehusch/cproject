@@ -13,40 +13,40 @@ ler um tamanho 5, ele deverá exibir
 
 int main(int argc, char const *argv[])
 {
-    int side; /* side counter */
-    int rowPosition; /* row counter */
-    int size; /* length of side */
+    int lado;
+    int posColuna;
+    int tamanho;
     
-    printf( "Enter the square side: " ); /* prompt for side length */
-    scanf( "%d", &side );
+    printf( "Digite o numero de lado: " );
+    scanf( "%d", &lado );
     
-    size = side; /* set size counter to length of side */
+    tamanho = lado; /* set tamanho counter to length of lado */
     
-    /* loop side number of times */
-    while ( side > 0 ) {
-        rowPosition = size; /* set row counter to length of size */
-        /* loop rowPosition number of times */
-        while ( rowPosition > 0 ) {
-            /* if side or row counter is 1 or size print an '*' */
-            if ( size == side ) {
+    /* loop lado number of times */
+    while ( lado > 0 ) {
+        posColuna = tamanho; /* set row counter to length of tamanho */
+        /* loop posColuna number of times */
+        while ( posColuna > 0 ) {
+            /* if lado or row counter is 1 or tamanho print an '*' */
+            if ( tamanho == lado ) {
             printf( "*" );
             }   /* end if */
-            else if ( side == 1 ) {
+            else if ( lado == 1 ) {
             printf( "*" );
             }/* end else if */
-            else if ( rowPosition == 1 ) {
+            else if ( posColuna == 1 ) {
             printf( "*" );
             } /* end else if */
-            else if ( rowPosition == size ) {
+            else if ( posColuna == tamanho ) {
             printf( "*" );
             } /* end else if */
             else { /* otherwise, print a space */
             printf( " " );
             } /* end else */
-            --rowPosition; /* decrement row counter */
+            --posColuna; /* decrement row counter */
         } /* end inner while */
         printf( "\n" ); /* new line for next row */
-        --side; /* decrement side counter */
+        --lado; /* decrement lado counter */
     } /* end outer while */
     //Testing git fetch
     return 0;
