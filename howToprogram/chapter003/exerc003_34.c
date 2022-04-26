@@ -47,6 +47,6 @@ int main(int argc, char const *argv[])
         } /* end inner while */
         printf( "\n" ); /* new line for next row */
         --side; /* decrement side counter */
-    } /* end outer while */
+    } /* end outer while  */
     return 0;
 }
