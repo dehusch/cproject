@@ -27,15 +27,15 @@ int main(int argc, char const *argv[])
         while ( posColuna > 0 ) {
             //Se Tamanho for = ao lado, imprima "*"
             if ( tamanho == lado ) {
-            printf( "*" );
+            printf( "+" );
             }
             //Se lado == 1, imprima "*"
             else if ( lado == 1 ) {
-            printf( "*" );
+            printf( "-" );
             }
             //Se posColuna for = 1, imprima "*"
             else if ( posColuna == 1 ) {
-            printf( "*" );
+            printf( "^" );
             }
             //Se posColuna = tamanho, imprima "*"
             else if ( posColuna == tamanho ) {
