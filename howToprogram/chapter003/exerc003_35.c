@@ -14,12 +14,54 @@ em seus dígitos individuais.]
 int main(int argc, char const *argv[])
 {
     int num;
-
+    int temp1;
+    int temp2;
+    int primDig;
+    int segDig;
+    int quaDig;
+    int quiDig;
 
     printf("Digite 5 numeros: ");
     scanf("%d", &num);
 
+    temp1 = num;
+
+    //primeiro digito
+    primDig = temp1 / 10000;
+    temp2 = temp1 % 10000;
+
+    //segundo digito
+    segDig = temp2 / 1000;
+    temp1 = temp2 % 1000;
+
+    temp2 = temp1 % 100;
+
+    //quarto digito
+    quaDig = temp2 / 10;
+    temp1 = temp2 % 10;
+
+    quiDig = temp1;
+
+    if (primDig = quiDig)
+    {
+        if (segDig = quaDig)
+        {
+            printf("%d é um palindromo", &num);
+        }
+        else
+        {
+            printf("%d não é um palindromo", &num);
+        }
+        
+    }
+    else
+    {
+        printf("%d não é um palindromo", &num);
+    }
     
+    
+
+
 
     return 0;
 }
