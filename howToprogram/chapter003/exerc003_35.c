@@ -42,21 +42,21 @@ int main(int argc, char const *argv[])
 
     quiDig = temp1;
 
-    if (primDig = quiDig)
+    if (primDig == quiDig)
     {
-        if (segDig = quaDig)
+        if (segDig == quaDig)
         {
-            printf("%d é um palindromo", &num);
+            printf("E um palindromo");
         }
         else
         {
-            printf("%d não é um palindromo", &num);
+            printf("Não é um palindromo");
         }
         
     }
     else
     {
-        printf("%d não é um palindromo", &num);
+        printf("Não é um palindromo");
     }
     
     
