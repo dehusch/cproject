@@ -20,11 +20,13 @@ int main(int argc, char const *argv[])
     int segDig;
     int quaDig;
     int quiDig;
+    int res;
 
     printf("Digite 5 numeros: ");
     scanf("%d", &num);
 
     temp1 = num;
+    res = num;
 
     //primeiro digito
     primDig = temp1 / 10000;
@@ -46,17 +48,17 @@ int main(int argc, char const *argv[])
     {
         if (segDig == quaDig)
         {
-            printf("E um palindromo");
+            printf("\n%d E um palindromo\n\n", &res);
         }
         else
         {
-            printf("Não é um palindromo");
+            printf("\n%d Não é um palindromo\n\n", &res);
         }
         
     }
     else
     {
-        printf("Não é um palindromo");
+        printf("\n%d Não é um palindromo\n\n", &res);
     }
     
     
