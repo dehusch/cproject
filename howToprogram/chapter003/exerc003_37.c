@@ -9,6 +9,8 @@ do loop por 100 milhões de vezes.
 */
 
 #include<stdio.h>
+#include<time.h>
+#include<unistd.h>
 
 int main(int argc, char const *argv[])
 {
@@ -17,11 +19,25 @@ int main(int argc, char const *argv[])
     while (num < 300000000)
     {
         num++;
+        /*
+        double time_spent = 0.0;
+ 
+        clock_t begin = clock();
+        */
         if (num % 100000000 == 0)
         {
             printf("%d", num / 100000000);
         }
         
+        /*
+        sleep(3);
+ 
+        clock_t end = clock();
+    
+        time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
+    
+        printf("The elapsed time is %f seconds", time_spent);
+        */
     }
     
     return 0;
