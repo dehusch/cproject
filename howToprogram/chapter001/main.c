@@ -20,6 +20,11 @@ int main(int argc, char *argv[])
 //  == !=         Da esquerda para a direita
 //  =             Da direita para a esquerda
 
+//Opções para condições IF...ELSE
+//  Not (!)	    !(a == 3)	        True se não for igual a 3
+//  And (&&)	a == 3 && b == 6	True se for igual a 3 e b igual a 6
+//  Or (||)	    a == 2 || b == 4	True se a for igual a 2 ou b igual 4
+
 //Palavras chave
 //  auto double int struct
 //  break else long switch
