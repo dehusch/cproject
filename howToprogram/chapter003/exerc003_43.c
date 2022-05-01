@@ -22,3 +22,8 @@ int main(int argc, char const *argv[])
         
     return 0;
 }
+/*
+Resposta colhida do livro de resposta:
+
+ANS: printf( “%d”, 1 + x + y );
+*/
