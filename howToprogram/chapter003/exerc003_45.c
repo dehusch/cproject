@@ -2,6 +2,7 @@
 que leia três inteiros diferentes de zero e determine
 e imprima se eles poderiam ser os lados de um
 triângulo retângulo.
+BACK in the 90's I was in a very famous TV show!
 */
 #include<stdio.h>
 
