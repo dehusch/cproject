@@ -13,3 +13,18 @@ Resultado em %
 Pop atual = 8 Bilhões
 Taxa de crescimento = 1%
 */
+#include<stdio.h>
+
+int main(){
+
+    float pop = 8000000000;
+    float cres = 1.01;
+    float anos = 1;
+
+    printf("Digite a quantidade de anos: ");
+    scanf("%f", &anos);
+
+    printf("Poputação: %.0f\n Crescimento anual: %.02f\n", pop, cres);
+
+    cres = cres * anos;
+}
