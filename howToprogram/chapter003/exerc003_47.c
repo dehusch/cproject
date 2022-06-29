@@ -26,13 +26,14 @@ int main(){
     printf("Digite a quantidade de anos: ");
     scanf("%d", &anos);
 
-    printf("Poputação: %.0f\n Crescimento anual: %.02f\n", pop, cres);
+    printf("\nPoputação: %.0f\nCrescimento anual: 1%%\n\n", pop);
+
+    calc = pop;
 
     while (cont < anos){
-        calc = pop * cres;
+        calc = calc * 1.01;
         cont++;
-        printf("%d\n", cont);
     }
 
-    printf("Crescimento em 1 ano = %f\n", calc);
+    printf("\nCrescimento em %d ano(s) = %.0f\n\n", anos , calc);
 }
