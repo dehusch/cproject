@@ -19,12 +19,20 @@ int main(){
 
     float pop = 8000000000;
     float cres = 1.01;
-    float anos = 1;
+    int anos = 1;
+    float calc = 1;
+    int cont = 0;
 
     printf("Digite a quantidade de anos: ");
-    scanf("%f", &anos);
+    scanf("%d", &anos);
 
     printf("Poputação: %.0f\n Crescimento anual: %.02f\n", pop, cres);
 
-    cres = cres * anos;
+    while (cont < anos){
+        calc = pop * cres;
+        cont++;
+        printf("%d\n", cont);
+    }
+
+    printf("Crescimento em 1 ano = %f\n", calc);
 }
