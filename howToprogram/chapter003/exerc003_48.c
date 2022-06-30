@@ -26,7 +26,9 @@ díaca normal.
 int main(){
     int nasc = 0;
     int atual = 0;
-    float idade = 0;
+    int idade = 0;
+    int freqC = 0;
+    int freqN = 0, freqM = 0;
 
     printf("Digite a data de nascimento (AAAAMMDD): ");
     scanf("%d", &nasc);
@@ -35,7 +37,14 @@ int main(){
     scanf("%d", &atual);
 
     idade = atual - nasc;
+    idade = idade / 10000;
 
-    printf("\nVocê tem %4.0f anos\n\n", idade);
+    printf("\nVocê tem %d anos\n", idade);
 
+    freqC = 220 - idade;
+    freqN = freqC * 0.50;
+    freqM = freqC * 0.85;
+
+    printf("\nFrequencia Cardiaca Maxima %d\n", freqC);
+    printf("\nFrequencia Cardiaca normal está entre %d e %d\n\n", freqN, freqM);
 }
