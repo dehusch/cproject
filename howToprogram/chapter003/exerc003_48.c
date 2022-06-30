@@ -24,9 +24,14 @@ díaca normal.
 #include<stdio.h>
 #include<time.h>
 
-int main()
-{
-  time_t t = time(NULL);
-  struct tm tm = *localtime(&t);
-  printf("now: %d-%02d-%02d %02d:%02d:%02d\n", tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
+int main(){
+    struct tm *data;
+    time_t segundos;
+    time(&segundos);
+    data = localtime(&segundos);
+
+    int ano = data->tm_year+1900;
+    int mes = data->tm_mon+1;
+
+    printf("%d\n", ano);
 }
