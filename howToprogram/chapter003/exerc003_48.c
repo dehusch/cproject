@@ -22,16 +22,20 @@ sua frequência cardíaca máxima e sua frequência car-
 díaca normal.
 */
 #include<stdio.h>
-#include<time.h>
 
 int main(){
-    struct tm *data;
-    time_t segundos;
-    time(&segundos);
-    data = localtime(&segundos);
+    int nasc = 0;
+    int atual = 0;
+    float idade = 0;
 
-    int ano = data->tm_year+1900;
-    int mes = data->tm_mon+1;
+    printf("Digite a data de nascimento (AAAAMMDD): ");
+    scanf("%d", &nasc);
 
-    printf("%d\n", ano);
+    printf("Digite a data de hoje (AAAAMMDD): ");
+    scanf("%d", &atual);
+
+    idade = atual - nasc;
+
+    printf("\nVocê tem %4.0f anos\n\n", idade);
+
 }
