@@ -12,8 +12,7 @@ int contador = 1; /* inicialização */
 Repetição controlada por contador */
 #include <stdio.h>
 /* função main inicia a execução do programa */
-int main( void )
-    {
+int main(){
     int contador = 1; /* inicialização */
     while ( contador <= 10 ) { /* condição de repetição */
         printf ( "%d\n", contador ); /* exibe contador */
