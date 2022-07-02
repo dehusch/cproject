@@ -16,8 +16,11 @@ int main( void )
     {
     int contador = 1; /* inicialização */
     while ( contador <= 10 ) { /* condição de repetição */
-    printf ( “%d\n”, contador ); /* exibe contador */
-    ++contador; /* incrementa */
+        printf ( "%d\n", contador ); /* exibe contador */
+        ++contador; /* incrementa */
     } /* fim do while */
+    while ( ++contador <= 20){ //colocando o incremento direto na condição.
+        printf("%d\n", contador);
+    }
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
