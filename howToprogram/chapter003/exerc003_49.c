@@ -55,6 +55,10 @@ int main(){
     printf("Valor3: %d\n", valorInv3);
     printf("Valor4: %d\n", valorInv4);
 
+    //revertendo o numero codificado
+
+    
+
     return 0;
 
 }
