@@ -3,8 +3,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Exemplo de mudança de variavel dentro do printf
+int a = 10;
+int b = 20;
+
 int main(int argc, char *argv[])
 {
+    printf("\n\nMudando o tipo da variavel no printf %f\n\n", (float)a / b);
     puts("Bem vindo");
     puts("\t a linguagem C!");
     printf("O printf continua ");
