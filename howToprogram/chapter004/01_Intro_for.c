@@ -24,13 +24,33 @@ da estrutura for (nesse caso, o comando return no fim do programa).
 /* Fig. 4.2: fig04_02.c
 Repetição controlada por contador com a estrutura for */
 #include <stdio.h>
-/* função main inicia a execução do programa */
-    int main( void ){
+    
+int main( void ){
+    
     int contador; /* declara o contador */
-/* inicialização, condição de repetição e incremento
-são todos incluídos no cabeçalho da estrutura for. */
+    int i;
+    int j;
+    
     for ( contador = 1; contador <= 10; contador++ ) {
         printf( "%d\n", contador );
-    } /* fim do for */
-    return 0; /* indica que o programa terminou com sucesso */
-} /* fim da função main */
+    }
+    for ( i = 1; i <= 100; i++ ){ //Alterne a variável de controle de 1 a 100 em incrementos de 1.
+        printf("%d", i);
+    }
+    for ( i = 100; i >= 1; i-- ){ //Alterne a variável de controle de 100 a 1 em incrementos de -1 (decrementos de 1).
+        printf("%d", i);
+    }
+    for ( i = 7; i <= 77; i += 7 ){//Alterne a variável de controle de 7 a 77 em intervalos de 7.
+        printf("\n%d\n", i);
+    }
+    for ( i = 20; i >= 2; i -= 2 ){ //Alterne a variável de controle de 20 a 2 em intervalos de -2.
+        printf("\n%d\n", i);
+    }
+    for ( j = 2; j <= 17; j += 3 ){ //sequência de valores: 2, 5, 8, 11, 14, 17.
+        printf("\n%d\n", j);
+    }
+    for ( j = 44; j >= 0; j -= 11 ){ //sequência de valores: 44, 33, 22, 11, 0.
+         printf("\n%d\n", j);
+    }
+    return 0;
+    }
