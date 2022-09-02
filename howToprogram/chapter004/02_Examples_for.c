@@ -17,6 +17,7 @@ Para vincular uma biblioteca usar os -lm (ex: gcc -lm)
 */
 
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     double valor;
@@ -26,7 +27,7 @@ int main()
 
     printf("%4s%21s\n", "Ano", "Valor da conta");
 
-    for (ano = 1; ano <- 10; ano++)
+    for (ano = 1; ano <= 10; ano++)
     {
         valor = principal * pow(1.0 + taxa, ano);
         printf("%4d%21.2f\n", ano, valor);
