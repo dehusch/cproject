@@ -12,5 +12,42 @@ int main(){
     printf("Digite as notas em letras.\n");
     printf("Digite 'EOF' para finalizar o programa.");
 
+    while ((nota = getchar()) != EOF){
+        
+        switch (nota){
+            case 'A':
+            case 'a':
+                ++aCont;
+                break;
+
+            case 'B':
+            case 'b':
+                ++bCont;
+                break;
+
+            case 'C':
+            case 'c':
+                ++cCont;
+                break;
+
+            case 'D':
+            case 'd':
+                ++dCont;
+                break;
+
+            case 'F':
+            case 'f':
+                ++fCont;
+                break;
+
+            case '\n':
+            case '\t':
+            case ' ':
+                break;
+
+            default:
+            
+        }
+    }
     
 }
