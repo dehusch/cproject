@@ -46,8 +46,18 @@ int main(){
                 break;
 
             default:
-            
+                printf("Letra incorreta");
+                printf("Digite nova nota.");
+                break;
         }
     }
     
+    printf("\nTotais de cada nota:\n");
+    printf("A: %d\n", aCont);
+    printf("B: %d\n", bCont);
+    printf("C: %d\n", cCont);
+    printf("D: %d\n", dCont);
+    printf("F: %d\n", fCont);
+
+    return 0;
 }
