@@ -8,5 +8,9 @@ int main(){
     int cCont = 0;
     int dCont = 0;
     int fCont = 0;
+
+    printf("Digite as notas em letras.\n");
+    printf("Digite 'EOF' para finalizar o programa.");
+
     
 }
