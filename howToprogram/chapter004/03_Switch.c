@@ -10,9 +10,9 @@ int main(){
     int fCont = 0;
 
     printf("Digite as notas em letras.\n");
-    printf("Digite 'EOF' para finalizar o programa.");
+    printf("Digite 'EOF' para finalizar o programa.\n");
 
-    while ((nota = getchar()) != EOF){
+    while ((nota = getchar()) !=EOF){
         
         switch (nota){
             case 'A':
@@ -46,8 +46,8 @@ int main(){
                 break;
 
             default:
-                printf("Letra incorreta");
-                printf("Digite nova nota.");
+                printf("\nLetra incorreta\n");
+                printf("Digite nova nota.\n");
                 break;
         }
     }
