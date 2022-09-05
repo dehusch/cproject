@@ -12,7 +12,7 @@ int main(){
     printf("Digite as notas em letras.\n");
     printf("Digite 'EOF' para finalizar o programa.\n");
 
-    while ((nota = getchar()) !=EOF){
+    while ((nota = getchar()) != EOF ){ //EOF = -1. Digite CTRL+Z e aperte enter para sair do programa
         
         switch (nota){
             case 'A':
