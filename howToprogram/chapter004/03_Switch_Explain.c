@@ -31,22 +31,17 @@ int main()
 
     //Um exemplo de switch
 
-    printf("Digite a nota do aluno:");
-    scanf("%d", &nota);
-
     while(nota <= 3){
+
+        printf("Digite a nota do aluno:");
+        scanf("%d", &nota);
         switch(nota){
             case 1:
-                contMenor++;
+                ++contMenor;
                 break;
             
             case 2:
-                contMaior++;
-                break;
-            
-            case '\n':
-            case '\t':
-            case ' ':
+                ++contMaior;
                 break;
 
         }//fim do switch
