@@ -34,19 +34,27 @@ int main()
     printf("Digite a nota do aluno:");
     scanf("%d", &nota);
 
-    switch(nota){
-        case 4:
-            contMenor++;
-            break;
-        
-        case 6:
-            contMaior++;
-            break;
+    while(nota <= 3){
+        switch(nota){
+            case 1:
+                contMenor++;
+                break;
+            
+            case 2:
+                contMaior++;
+                break;
+            
+            case '\n':
+            case '\t':
+            case ' ':
+                break;
 
-    }
+        }//fim do switch
+    }//fim do while
 
-    printf("Quantidade menor que 5: %d", contMenor);
-    printf("Quantidade Maior que 5: %d", contMaior);
+    printf("Quantidade de 1: %d\n", contMenor);
+    printf("Quantidade de 2: %d\n", contMaior);
     
+    return 0;
 
 }
