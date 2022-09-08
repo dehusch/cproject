@@ -17,12 +17,36 @@ inteira.
 int main()
 {
     int ch = 0;
-    //Podemos definir a variavel ch assim: char ch;
+    int nota = 0;
+    int contMenor = 0;
+    int contMaior =0;
 
+    //Podemos definir a variavel ch assim: char ch;
+    //Um exemplo de getchar
     printf("Digite algum caracter: ");
 
     ch = getchar();
 
-    printf("\n A tecla pressionada '%c' representa o valor %d na tabela ASCII.\n", ch, ch);
+    printf("\n A tecla pressionada '%c' representa o valor %d na tabela ASCII.\n\n", ch, ch);
+
+    //Um exemplo de switch
+
+    printf("Digite a nota do aluno:");
+    scanf("%d", &nota);
+
+    switch(nota){
+        case 4:
+            contMenor++;
+            break;
+        
+        case 6:
+            contMaior++;
+            break;
+
+    }
+
+    printf("Quantidade menor que 5: %d", contMenor);
+    printf("Quantidade Maior que 5: %d", contMaior);
+    
 
 }
