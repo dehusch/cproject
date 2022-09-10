@@ -49,7 +49,7 @@ int main()
 
     printf("Quantidade de 1: %d\n", contMenor);
     printf("Quantidade de 2: %d\n", contMaior);
-    
+    //UPDATE
     return 0;
 
 }
