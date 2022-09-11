@@ -1,6 +1,6 @@
 /* Usando o comando break em uma estrutura for */
 #include <stdio.h>
-/* função main inicia a execução do programa */
+
 int main()
 {
     int x; /* contador */
