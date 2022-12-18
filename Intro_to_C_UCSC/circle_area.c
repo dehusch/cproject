@@ -12,3 +12,11 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+
+/*
+AREA 3 = 28.27431
+AREA 4 = 50.26544
+AREA 5 = 78.53975
+AREA 6 = 113.09724
+*/
