@@ -34,17 +34,16 @@ operadores && e ||, que combinam duas condições (e que, portanto, são operado
 uma única condição como operando (e, portanto, é um operador unário). O operador de negação lógica é colocado antes de uma
 condição quando estamos interessados em escolher um caminho de execução se a condição original (sem o operador de negação lógica)
 for falsa, como neste segmento de programa:
+
 if ( !( nota == valorSentinela ) )
 printf( “A próxima nota é %f\n”, nota );
+
 Os parênteses em torno da condição nota == valorSentinela são necessários porque o operador de negação lógica tem uma
-precedência maior que o operador de igualdade. A Figura 4.15 é uma tabela verdade para o operador de negação lógica.
-expressão !expressão
-0 1
-não zero 0
-Figura 4.15 n Tabela verdade para o operador ! (negação lógica).
+precedência maior que o operador de igualdade. 
+
 Na maioria dos casos, você pode evitar o uso da negação lógica ao expressar a condição de modo diferente com um operador relacional
 apropriado. Por exemplo, a instrução anterior também poderia ser escrita da seguinte forma:
+
 if ( nota != valorSentinela )
 printf( “A próxima nota é %f\n”, nota );
-A Figura 4.16 mostra a precedência e a associatividade dos operadores
 */
