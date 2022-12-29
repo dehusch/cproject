@@ -19,7 +19,7 @@ int main()
     int ch = 0;
     int nota = 0;
     int contMenor = 0;
-    int contMaior =0;
+    int contMaior = 0;
 
     //Podemos definir a variavel ch assim: char ch;
     //Um exemplo de getchar
@@ -31,7 +31,7 @@ int main()
 
     //Um exemplo de switch
 
-    while(nota <= 3){
+    while(nota <= 10){
 
         printf("Digite a nota do aluno:");
         scanf("%d", &nota);
@@ -42,6 +42,9 @@ int main()
             
             case 2:
                 ++contMaior;
+                break;
+            case 3:
+                nota = 11;
                 break;
 
         }//fim do switch
