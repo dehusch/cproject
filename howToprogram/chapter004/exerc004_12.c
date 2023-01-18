@@ -6,20 +6,16 @@ de 2 a 30.
 
 int main(int argc, char const *argv[])
 {
-    int sum, num;
+    int x = 0, sum = 0;
 
-    printf("\nDigite um valor pra somar: ");
-    scanf("%d", &num);
-
-    while (num != 9999)
+    for (x = 2; x <= 30; x += 2)
     {
-        sum += num;
+        printf("%d", x);
 
-        printf("\nDigite um valor pra somar: ");
-        scanf("%d", &num);
+        sum += x;
     }
 
-    printf("\n%d", sum);
+    printf("\n\n%d", sum);
 
     return 0;
 }
