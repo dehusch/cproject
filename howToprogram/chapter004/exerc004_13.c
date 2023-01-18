@@ -6,15 +6,16 @@ inteiros ímpares de 1 a 15.*/
 
 int main(int argc, char const *argv[])
 {
-    int x = 0, sum = 0;
+    long x = 0;
+    long sum = 1;
 
     for (x = 1; x <= 15; x += 2)
     {
         printf("%d", x);
 
-        sum += x;
+        sum *= x;
     }
 
-    printf("\n\n%d\n", sum);
+    printf("\n\n%ld\n", sum);
     return 0;
 }
