@@ -11,12 +11,20 @@ dificuldade poderia impedi-lo de calcular o fatorial de 20?
 
 int main(int argc, char const *argv[])
 {
-    long x = 0;
+    int x;
+    int y;
+    int fact;
+
+    printf("X\tFactorial de X\n");
 
     for (x = 1; x <= 5; x++)
     {
-        x *= x;
-        printf("%d", &x);
+        fact = 1;
+        for (y = 1; y <= x; y++)
+        {
+            fact *= y;
+        }
+        printf("%d\t%d\n", x, fact);
     }
 
     return 0;
