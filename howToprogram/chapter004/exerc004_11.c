@@ -8,14 +8,17 @@ lido especifique o número de valores restantes.
 
 int main(int argc, char const *argv[])
 {
-    int x = 0, y = 0, z = 0, menor;
+    int x = 0, y = 0, z = 0, menor = 0;
 
     printf("Digite quantos numeros serão inserido: ");
     scanf("%d", &z);
 
-    for (x = 0; x < z; x++)
+    printf("Digite um numero: ");
+    scanf("%d", &menor);
+
+    for (x = 0; x < z - 1; x++)
     {
-        printf("Digite um numero: ");
+        printf("Digite outro numero: ");
         scanf("%d", &y);
 
         if (y < menor)
@@ -24,7 +27,6 @@ int main(int argc, char const *argv[])
         }
     }
 
-    printf("\n%d", y);
     printf("\n%d", menor);
 
     return 0;
