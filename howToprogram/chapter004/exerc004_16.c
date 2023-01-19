@@ -13,10 +13,17 @@ int main(void)
     double taxa = .05;         /* taxa anual de juros */
     int ano;                   /* contador do ano */
     printf("%4s%21s\n", "Ano", "Valor na conta");
-    for (ano = 1; ano <= 10; ano++)
+
+    for (taxa = 5; taxa <= 10; taxa++)
     {
-        valor = principal * pow(1.0 + taxa, ano);
-        printf("%4d%21.2f\n", ano, valor);
-    }         /* fim do for */
+        printf("Interest Rate: %f\n", taxa / 100);
+        printf("%s%21s\n", "Year", "Amount on deposit");
+
+        for (ano = 1; ano <= 10; ano++)
+        {
+            valor = principal * pow(1.0 + (taxa / 100), ano);
+            printf("%4d%21.2f\n", ano, valor);
+        } /* fim do for */
+    }
     return 0; /* indica que o programa foi concluído com sucesso */
 } /* fim da função main */
