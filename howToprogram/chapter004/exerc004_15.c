@@ -1,31 +1,29 @@
-/*
-Fatoriais. A função fatorial é usada com frequência
-nos problemas de probabilidade. O fatorial de um inteiro
-positivo n (escrito como n! e pronunciado como ‘fatorial
-de n’) é igual ao produto dos inteiros positivos de 1 a n.
-Escreva um programa que avalie os fatoriais dos inteiros
-de 1 a 5. Imprima os resultados em formato tabular. Que
-dificuldade poderia impedi-lo de calcular o fatorial de 20?
-*/
+/*Programa de juros compostos modificado. Modifique
+o programa de juros compostos da Seção 4.6 e
+repita suas etapas para taxas de juros de 5, 6, 7, 8, 9 e 10
+por cento. Use um loop for para variar a taxa de juros.*/
+
 #include <stdio.h>
+#include <math.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
-    int x;
-    int y;
-    int fact;
+    double valor;              /* valor em depósito */
+    double principal = 1000.0; /* principal inicial */
+    double taxa = .05;         /* taxa anual de juros */
+    int ano;                   /* contador do ano */
+    printf("%4s%21s\n", "Ano", "Valor na conta");
 
-    printf("X\tFactorial de X\n");
-
-    for (x = 1; x <= 5; x++)
+    for (taxa = 5; taxa <= 10; taxa++)
     {
-        fact = 1;
-        for (y = 1; y <= x; y++)
-        {
-            fact *= y;
-        }
-        printf("%d\t%d\n", x, fact);
-    }
+        printf("Interest Rate: %f\n", taxa / 100);
+        printf("%s%21s\n", "Year", "Amount on deposit");
 
-    return 0;
-}
+        for (ano = 1; ano <= 10; ano++)
+        {
+            valor = principal * pow(1.0 + (taxa / 100), ano);
+            printf("%4d%21.2f\n", ano, valor);
+        } /* fim do for */
+    }
+    return 0; /* indica que o programa foi concluído com sucesso */
+} /* fim da função main */
