@@ -59,7 +59,7 @@ int main(int argc, char const *argv[])
             printf(" Quantidade: %d\n", quant);
         }
 
-        scanf("%d", &productNumber); /* get next input */
+        scanf("%d", &productNumber);
     }
 
     printf("Total de itens vendidos: %.2f\n", total);
