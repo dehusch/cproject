@@ -63,4 +63,5 @@ int main(int argc, char const *argv[])
     }
 
     printf("Total de itens vendidos: %.2f\n", total);
+    //back to lab
 }
