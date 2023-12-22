@@ -9,40 +9,20 @@ número sete, ele deverá exibir *******.
 */
 
 /*The program must read and show five results in the
-end of the program. Each number will be displayed
+end of the program. Each number will be displayed "*"
  in a new line*/
-
 #include <stdio.h>
-
-int main(){
-
-    int number = 0;
-    int i = 0;
-    int j = 0;
-    int k = 1;
-
-    printf("Enter a number between 1 and 30: ");
-    scanf("%d", &number);
-
-    while (k < 5)
-    {
-    
-        while(number < 1 || number > 30){
-            printf("Enter a number between 1 and 30: ");
-            scanf("%d", &number);
+int main(void){
+int i;
+int j;
+int number;
+    printf( "Enter 5 numbers between 1 and 30: " );
+    for ( i = 1; i <= 5; i++ ) {
+        scanf( "%d", &number );
+        for ( j = 1; j <= number; j++ ) {
+            printf( "*" );
         }
-
-        for(i = 0; i < number; i++){
-            printf("*");
-        }
-
-        printf("\n");
-
-        printf("Enter a number between 1 and 30: ");
-        scanf("%d", &number);
-        
-    k++;
+        printf( "\n" );
     }
     return 0;
-
 }
