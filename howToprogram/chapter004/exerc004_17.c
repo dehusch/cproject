@@ -30,3 +30,29 @@ over the new recession the actual Credit for each Customer
 will be half!*/
 
 #include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int account_number;
+    float credit_limit;
+    float balance;
+    float new_credit_limit;
+
+    printf("Enter the account number: ");
+    scanf("%d", &account_number);
+    printf("Enter the credit limit: ");
+    scanf("%f", &credit_limit);
+    printf("Enter the balance: ");
+    scanf("%f", &balance);
+
+    new_credit_limit = credit_limit / 2;
+
+    printf("The new credit limit is: %.2f\n", new_credit_limit);
+
+    if (balance > new_credit_limit)
+    {
+        printf("The balance is higher than the new credit limit!\n");
+    }
+
+    return 0;
+}
