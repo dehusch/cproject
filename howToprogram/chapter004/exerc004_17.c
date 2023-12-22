@@ -24,35 +24,49 @@ de crédito.
 
 */
 
-/*Calculate a Customer Credit
+/*Create a list of customers and calculate a Customer Credit
 The actual Credit for a customer is $2000,00 and
 over the new recession the actual Credit for each Customer
-will be half!*/
+will be half! Terminated the program when press0 in customer number
+and after that show a list of all customer and what is the actual balance of each customer*/
 
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
-    int account_number;
-    float credit_limit;
-    float balance;
-    float new_credit_limit;
+int main(){
 
-    printf("Enter the account number: ");
-    scanf("%d", &account_number);
-    printf("Enter the credit limit: ");
-    scanf("%f", &credit_limit);
-    printf("Enter the balance: ");
-    scanf("%f", &balance);
+    int customer_number = 0;
+    float actual_credit = 0;
+    float new_credit = 0;
+    float actual_balance = 0;
+    float new_balance = 0;
+    int i = 0;
 
-    new_credit_limit = credit_limit / 2;
+    printf("Enter the customer number: ");
+    scanf("%d", &customer_number);
 
-    printf("The new credit limit is: %.2f\n", new_credit_limit);
+    while(customer_number != 0){
 
-    if (balance > new_credit_limit)
-    {
-        printf("The balance is higher than the new credit limit!\n");
+        printf("Enter the actual credit: ");
+        scanf("%f", &actual_credit);
+        printf("Enter the actual balance: ");
+        scanf("%f", &actual_balance);
+
+        new_credit = actual_credit / 2;
+        new_balance = actual_balance - new_credit;
+
+        printf("The new credit is: %.2f\n", new_credit);
+        printf("The new balance is: %.2f\n", new_balance);
+
+        if(new_balance > new_credit){
+            printf("The customer %d has a balance greater than the new credit\n", customer_number);
+        }
+
+        i++;
+        printf("Enter the customer number: ");
+        scanf("%d", &customer_number);
     }
+
+    printf("The total of customers is: %d\n", i);
 
     return 0;
 }
