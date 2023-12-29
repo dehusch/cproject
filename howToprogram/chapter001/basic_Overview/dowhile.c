@@ -4,16 +4,16 @@ int main()
 {
      int i = 0;
 
-     while (i != 0) //EXECUTA E DEPOIS VERIFICA
+     while (i != 0) //EXECUTA E DEPOIS VERIFICA SE A CONDICAO E VERDADEIRA
+                    // SE NAO FOR VERDADEIRA ELE PARA DE EXECUTAR O BLOCO DE CODIGO e vai para o proximo bloco de codigo.
+                    //SE FOR VERDADEIRA ELE EXECUTA O BLOCO DE CODIGO
      {
          printf("Teste");
      }
-     printf("i = %d\n", i);
 
      do {  //VERIFICA E DEPOIS EXECUTA
         printf("Teste2");
-     } while (i !=0); //ENQUANTO A CONDICAO NAO MUDA, ELE PARA
+     } while (i !=0); //ENQUANTO A CONDICAO NAO MUDA, ELE PARA  DE EXECUTAR O BLOCO DE CODIGO   
 
-    printf("i = %d\n", i);
     return 0;
 }
