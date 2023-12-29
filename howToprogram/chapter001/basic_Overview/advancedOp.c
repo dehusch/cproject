@@ -29,10 +29,8 @@ void main() {
     printf("product = %d\n", product);
     printf("quotient = %d\n", quotient);
     printf("remainder = %d\n", remainder);
-    printf("increment = %d\n", increment);
-    printf("decrement = %d\n", decrement);
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
+    printf("increment = %d\n", a);
+    printf("decrement = %d\n", b);
     printf("greaterThan = %d\n", greaterThan);
     printf("lessThan = %d\n", lessThan);
     printf("equalTo = %d\n", equalTo);
