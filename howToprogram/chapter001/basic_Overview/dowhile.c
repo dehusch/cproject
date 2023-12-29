@@ -11,7 +11,7 @@ int main()
          printf("Teste");
      }
 
-     do {  //VERIFICA E DEPOIS EXECUTA
+     do {  //VERIFICA E DEPOIS EXECUTA O BLOCO DE CODIGO E DEPOIS VERIFICA SE A CONDICAO E VERDADEIRA
         printf("Teste2");
      } while (i !=0); //ENQUANTO A CONDICAO NAO MUDA, ELE PARA  DE EXECUTAR O BLOCO DE CODIGO   
 
