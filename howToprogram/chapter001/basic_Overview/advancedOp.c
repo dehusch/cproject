@@ -19,4 +19,23 @@ void main() {
     int logicalAnd = (a > 0 && b > 0); // Logical AND
     int logicalOr = (a > 0 || b > 0); // Logical OR
     int logicalNot = !(a > 0); // Logical NOT
+
+    //Create a printf statement for each variable
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("sum = %d\n", sum);
+    printf("difference = %d\n", difference);
+    printf("product = %d\n", product);
+    printf("quotient = %d\n", quotient);
+    printf("remainder = %d\n", remainder);
+    printf("increment = %d\n", increment);
+    printf("decrement = %d\n", decrement);
+    printf("greaterThan = %d\n", greaterThan);
+    printf("lessThan = %d\n", lessThan);
+    printf("equalTo = %d\n", equalTo);
+    printf("notEqualTo = %d\n", notEqualTo);
+    printf("logicalAnd = %d\n", logicalAnd);
+    printf("logicalOr = %d\n", logicalOr);
+    printf("logicalNot = %d\n", logicalNot);
+    
 }
