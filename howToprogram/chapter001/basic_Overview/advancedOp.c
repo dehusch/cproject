@@ -1,8 +1,11 @@
 #include <stdio.h>
-
-void main() {
     int a = 10;
     int b = 5;
+
+
+void main() {
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
     int sum = a + b; // Addition
     int difference = a - b; // Subtraction
     int product = a * b; // Multiplication
@@ -18,11 +21,9 @@ void main() {
 
     int logicalAnd = (a > 0 && b > 0); // Logical AND
     int logicalOr = (a > 0 || b > 0); // Logical OR
-    int logicalNot = !(a > 0); // Logical NOT
+    int logicalNot = !(a < 0); // Logical NOT
 
     //Create a printf statement for each variable
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
     printf("sum = %d\n", sum);
     printf("difference = %d\n", difference);
     printf("product = %d\n", product);
@@ -30,6 +31,8 @@ void main() {
     printf("remainder = %d\n", remainder);
     printf("increment = %d\n", increment);
     printf("decrement = %d\n", decrement);
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
     printf("greaterThan = %d\n", greaterThan);
     printf("lessThan = %d\n", lessThan);
     printf("equalTo = %d\n", equalTo);
