@@ -7,8 +7,10 @@ int main()
     int resposta = 1;
     printf("Digite o valor para calcular o fatorial: "); scanf("%i", &fatorial);
 
-    for ( ; fatorial >= 1; fatorial = fatorial - 1)
+    for (; fatorial >= 1; fatorial = fatorial - 1)
     {
+        printf("O valor de fatorial é %i\n", fatorial);
+        printf("O valor de resposta é %i\n", resposta);
         resposta = resposta * fatorial;
     }
 
