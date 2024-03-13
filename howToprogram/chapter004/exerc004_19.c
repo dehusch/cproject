@@ -35,23 +35,23 @@ int main(int argc, char const *argv[])
         switch (productNumber)
         {
         case 1:
-            total += quant * 3;
+            total += quant * 2.98;
             break;
 
         case 2:
-            total += quant * 10;
+            total += quant * 4.50;
             break;
 
         case 3:
-            total += quant * 100;
+            total += quant * 9.98;
             break;
 
         case 4:
-            total += quant * 500;
+            total += quant * 4.49;
             break;
 
         case 5:
-            total += quant * 1000;
+            total += quant * 6.87;
             break;
 
         default:
