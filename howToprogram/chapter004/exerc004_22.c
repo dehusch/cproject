@@ -56,6 +56,7 @@ int main() {
     printf("A quantidade de alunos com nota C e %d\n", cContador);
     printf("A quantidade de alunos com nota D e %d\n", dContador);
     printf("A quantidade de alunos com nota F e %d\n", fContador);
+    printf("Fim do programa\n");
 
     return 0;
 }
