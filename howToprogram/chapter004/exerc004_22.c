@@ -2,7 +2,7 @@
 // Programa: Exercicio 4.22
 // Exercicio 4.22
 // Modifique a figura 4.7 para que calcule a media dos alunos usando switch
-//
+// Teste
 
 int main() {
     int total;
