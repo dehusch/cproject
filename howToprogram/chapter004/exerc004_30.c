@@ -27,7 +27,7 @@ pode ser escrita apenas com instruções de seleção única.
 		/* prompt user for grades */
 		
 		printf( "Enter the letter grades." );
-		printf( " Enter the EOF character to end input:\n" );
+		printf( " Enter the EOF or CTRL+D character to end input:\n" );
 		
 		/* while EOF not entered by user */
 		while ( ( grade = getchar() ) != EOF ) {
