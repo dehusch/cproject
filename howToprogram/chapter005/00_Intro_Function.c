@@ -9,14 +9,21 @@ Here's an example of a simple function in C:
 
 // Function declaration
 int add(int a, int b);
+int square(int x);
 
 int main() {
     int result;
+    int x; // count
 
+    for (x = 0; x < 10; x++) {
+	printf("The count is: %d\n",square(x));
+    }
+    printf("\n");
     // Function call
     result = add(5, 3);
 
     printf("The sum is: %d\n", result);
+
     return 0;
 }
 
@@ -24,8 +31,15 @@ int main() {
 int add(int a, int b) {
     return a + b;
 }
+
+int square(int x) {
+    return x * x;
+}
+
 /* In this example, we have defined a function named add that takes two integer parameters a and b and returns their sum.
  * The function is declared before the main function, and its definition is provided after the main function.
  * Inside the main function, we call the add function with arguments 5 and 3, and the result is stored in the variable result.
  * Finally, we print the result using the printf function.
  */
+
+
