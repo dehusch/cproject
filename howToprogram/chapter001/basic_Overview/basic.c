@@ -1,4 +1,6 @@
 //Review of C
+//For give a debbuging option use: cc -Wall -Wextra -g programa.c -o programa
+//Back to black
 #include <stdio.h>
 #define PI 3.14
 
