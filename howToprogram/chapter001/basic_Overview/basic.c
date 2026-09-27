@@ -16,16 +16,26 @@ int main(){
     char gender = 'M';
     float High = 1.63;
     float value1=0, value2=0;
+    float num1=0, num2=0;
 
-    printf("Enter a value: \n");
+
+    printf("Enter a value for A integer: ");
     scanf("%d", &a);
-    printf("Enter another value: \n");
+    printf("Enter another value for B integer: ");
     scanf("%d", &b);
-    
+    printf("Enter a value for num1 as float: ");
+    scanf("%f", &num1);
+    printf("Enter a value for num2 as float: ");
+    scanf("%f", &num2);
+
+
+
     c = a % b;
     d = a / b;
+    float num3 = num1 / num2;
     printf("Division rest = %d\n", c);
     printf("Result of division = %d\n", d);
+    printf("Result of division using float = %f\n", num3);
     printf("Age: %d\n", age);
     printf("Salary: %.3f\n", salary);
     printf("Discount (%%): %.2f\n", percent_disc);
@@ -39,10 +49,12 @@ int main(){
     printf("Enter another value: \n");
     scanf("%f", &value2);
     printf("The first value ist: %.2f\nThe second value is: %.2f\n", value1, value2);
+    float value3 = value1 / value2;
+    printf("The float division between value1 and value2 is: %f\n", value3);
+
 
     //Constantes
     const float G = 9.80;
-
     printf("\n PI: %.2f", PI); //Constant defined in the header
     printf("\n G: %.2f\n", G); //Constant G defined in the main
 
