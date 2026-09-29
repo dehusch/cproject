@@ -16,18 +16,24 @@ int main(){
     int b;
     int c;
     int d;
-    float x,y,z;
+    double x,y,z;
 
-
+    printf("Choose a nummber that will be divide: ");
     scanf("%d", &a);
+    printf("Choose a nummber to divide");
     scanf("%d", &b);
-    
     c = a % b;
     d = a / b;
     printf("Resto da divisao = %d\n", c);
     printf("Resultado da divisao = %d\n", d);
 
+
+    printf("Insira o valor base:");
+    scanf("%lf", &y);
+    printf("Insira o valor elevado:");
+    scanf("%lf", &z);
     x=pow(y,z);
+    printf("%f elevado ao %f e igual a: %f", y,z,x);
 
     return 0;
 
@@ -51,7 +57,7 @@ of arithmetic, increment, relational, logical, bitwise, assignment and miscellan
         C does not have an operator for exponentiation.
         So in order to raise a value to a power you must use the pow function like:
 
-        #include <cmath>
+        #include <math.h>
         float x,y,z;
         x=pow(y,z);
 
