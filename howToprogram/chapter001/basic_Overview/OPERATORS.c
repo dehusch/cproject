@@ -6,7 +6,9 @@ https://www.austincc.edu/akochis/cosc1320/operators.htm
 *******************************************************
 */
 
+#include <math.h>
 #include <stdio.h>
+
 
 int main(){
 
@@ -14,7 +16,9 @@ int main(){
     int b;
     int c;
     int d;
-    
+    float x,y,z;
+
+
     scanf("%d", &a);
     scanf("%d", &b);
     
@@ -22,6 +26,8 @@ int main(){
     d = a / b;
     printf("Resto da divisao = %d\n", c);
     printf("Resultado da divisao = %d\n", d);
+
+    x=pow(y,z);
 
     return 0;
 
