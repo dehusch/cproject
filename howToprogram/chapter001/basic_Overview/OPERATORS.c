@@ -20,7 +20,7 @@ int main(){
 
     printf("Choose a nummber that will be divide: ");
     scanf("%d", &a);
-    printf("Choose a nummber to divide");
+    printf("Choose a nummber to divide: ");
     scanf("%d", &b);
     c = a % b;
     d = a / b;
@@ -28,12 +28,12 @@ int main(){
     printf("Resultado da divisao = %d\n", d);
 
 
-    printf("Insira o valor base:");
+    printf("Insira o valor base: ");
     scanf("%lf", &y);
-    printf("Insira o valor elevado:");
+    printf("Insira o valor elevado: ");
     scanf("%lf", &z);
     x=pow(y,z);
-    printf("%f elevado ao %f e igual a: %f", y,z,x);
+    printf("%g elevado ao %g e igual a: %g! \n", y,z,x);
 
     return 0;
 
