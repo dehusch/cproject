@@ -3,7 +3,8 @@
     int b = 5;
 
 
-void main() {
+int main ()
+{
     printf("a = %d\n", a);
     printf("b = %d\n", b);
     int sum = a + b; // Addition
@@ -29,8 +30,8 @@ void main() {
     printf("product = %d\n", product);
     printf("quotient = %d\n", quotient);
     printf("remainder = %d\n", remainder);
-    printf("increment = %d\n", a);
-    printf("decrement = %d\n", b);
+    printf("increment = %d\n", increment); //error found in debbuging
+    printf("decrement = %d\n", decrement); //error found in debbuging
     printf("greaterThan = %d\n", greaterThan);
     printf("lessThan = %d\n", lessThan);
     printf("equalTo = %d\n", equalTo);
@@ -39,4 +40,5 @@ void main() {
     printf("logicalOr = %d\n", logicalOr);
     printf("logicalNot = %d\n", logicalNot);
     
+    return 0;
 }
