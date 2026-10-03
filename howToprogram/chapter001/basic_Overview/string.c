@@ -61,7 +61,7 @@ int main(){
 
     printf("\n Digite uma frase:");
 
-    fflush(stdin);
+    fflush(stdin); //delete this line
     
     scanf("%c", frase);
 
