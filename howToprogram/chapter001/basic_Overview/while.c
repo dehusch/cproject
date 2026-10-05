@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//update
+
 int main()
 {
     int contador = 1;
@@ -20,9 +22,9 @@ int main()
         total = x * y;
         printf("%d x %d = %d\n", x, y, total);
         y++;
-
+	
     }
-
+	
     //Sentinel value
     int a = 1, soma = 0;
 
