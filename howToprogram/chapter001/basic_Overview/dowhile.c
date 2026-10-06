@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+
+
 int main()
 {
-     int i = 0;
+
+	printf("Testing a dowhile");
+	int i = 0;
 
      while (i != 0) //EXECUTA E DEPOIS VERIFICA SE A CONDICAO E VERDADEIRA
                     // SE NAO FOR VERDADEIRA ELE PARA DE EXECUTAR O BLOCO DE CODIGO e vai para o proximo bloco de codigo.
