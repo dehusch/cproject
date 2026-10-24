@@ -6,7 +6,7 @@ int main()
     int myAge = 37;
     int momAge = 60;
     int dadAge = 60;
-    int year = 2021;
+    int year = 2026;
 
     printf ("My age is %i\nDaddy age is %i\nMom age is %i\nI've born in %i\n"
             , myAge, dadAge, momAge, year - myAge);
