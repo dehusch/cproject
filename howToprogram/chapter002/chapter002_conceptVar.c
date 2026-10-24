@@ -3,7 +3,7 @@
 //It's allowes to use var outside a printf
 int main()
 {
-    int myAge = 37;
+    int myAge = 42;
     int momAge = 60;
     int dadAge = 60;
     int year = 2026;
